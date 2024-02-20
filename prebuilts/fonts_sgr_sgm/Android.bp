@@ -1,0 +1,16 @@
+//
+//  Copyright (C) 2024 The 2by2 Project
+//  SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_font {
+    name: "sgr.ttf",
+    src: "sgr.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "sgm.ttf",
+    src: "sgm.ttf",
+    product_specific: true,
+}

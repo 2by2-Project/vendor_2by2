@@ -26,3 +26,6 @@ TARGET_PIXEL_STAND_SUPPORTED ?= false
 ifeq ($(TARGET_IS_PIXEL),true)
 $(call inherit-product, vendor/2by2/config/pixel.mk)
 endif
+
+# Font
+$(call inherit-product, vendor/2by2/prebuilts/fonts_sgr_sgm/fonts.mk)
