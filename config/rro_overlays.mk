@@ -3,6 +3,8 @@ PRODUCT_PACKAGES += \
     2by2FrameworksResOverlay \
     2by2SystemUIResOverlay \
     2by2SettingsResOverlay \
+    2by2LauncherOverlay \
+    2by2LineageSetupWizardOverlay \
     2by2SetupWizardOverlay
 
 # Standard Overlays

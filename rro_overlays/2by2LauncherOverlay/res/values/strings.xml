@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The 2by2 Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Application name -->
+    <string name="crdroid_app_name" translatable="false">2byLauncher</string>
+
+    <!-- QuickSpace: QuickEvent: Device Intro Event -->
+    <string name="quick_event_rom_intro_welcome">Welcome to 2by2 Project!</string>
+    <string name="quick_event_rom_intro_welcome_ext">2by2 time!</string>
+
+</resources>
