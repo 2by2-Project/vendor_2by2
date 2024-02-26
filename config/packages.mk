@@ -41,3 +41,10 @@ endif
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
   PRODUCT_PACKAGES += su
 endif
+
+# SH apps
+TARGET_SHIPS_SHAPPS ?= false
+
+ifeq ($(TARGET_SHIPS_SHAPPS), true)
+  $(call inherit-product-if-exists, vendor/sh-fwk/config.mk)
+endif
