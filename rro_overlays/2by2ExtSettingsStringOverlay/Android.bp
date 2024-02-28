@@ -1,0 +1,11 @@
+//
+// Copyright (C) 2024 The 2by2 Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "2by2ExtSettingsStringOverlay",
+    certificate: "platform",
+    sdk_version: "current",
+    product_specific: true,
+}
