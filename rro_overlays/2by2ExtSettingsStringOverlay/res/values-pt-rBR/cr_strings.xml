@@ -16,8 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="2by2 Project_settings_title">Configurações 2by2 Project</string>
-    <string name="2by2 Project_settings_summary">O melhor está aqui</string>
+    <string name="crdroid_settings_title">Configurações 2by2 Project</string>
+    <string name="crdroid_settings_summary">O melhor está aqui</string>
     <string name="reset_settings_title">Redefinir configurações</string>
     <string name="reset_settings_message">Isso vai redefinir as alterações feitas nas configurações 2by2 Project. Gostaria de continuar?</string>
     <!-- Personalization Categories -->
@@ -55,41 +55,41 @@
     <string name="wallpaper_color">Cor do papel de parede</string>
     <string name="custom_color">Cor personalizada</string>
     <!-- Changelog -->
-    <string name="changelog_2by2 Project_title">Registro das últimas alterações</string>
-    <string name="changelog_2by2 Project_summary">Mostrar alterações da ROM instalada</string>
-    <string name="changelog_2by2 Project_error">Não foi possível carregar o registro de mudanças</string>
+    <string name="changelog_crdroid_title">Registro das últimas alterações</string>
+    <string name="changelog_crdroid_summary">Mostrar alterações da ROM instalada</string>
+    <string name="changelog_crdroid_error">Não foi possível carregar o registro de mudanças</string>
     <!-- About 2by2 Project -->
-    <string name="about_2by2 Project">Sobre 2by2 Project</string>
+    <string name="about_crdroid">Sobre 2by2 Project</string>
     <string name="about_device_name">Dispositivo</string>
     <!-- Share 2by2 Project -->
-    <string name="share_2by2 Project_title">Compartilhar 2by2 Project</string>
-    <string name="share_2by2 Project_summary">Deixe que outros saibam sobre a 2by2 Project</string>
+    <string name="share_crdroid_title">Compartilhar 2by2 Project</string>
+    <string name="share_crdroid_summary">Deixe que outros saibam sobre a 2by2 Project</string>
     <string name="share_message">Verifique se #2by2Project está disponível para o seu dispositivo @ https://2by2 Project.net/</string>
     <string name="share_chooser_title">Compartilhar 2by2 Project</string>
     <!-- Sites 2by2 Project -->
-    <string name="2by2 Project_source_title">GitHub</string>
-    <string name="2by2 Project_source_summary">Nós amamos o código aberto, confira</string>
-    <string name="2by2 Project_telegram_title">Comunidade 2by2 Project</string>
-    <string name="2by2 Project_telegram_summary">Estamos no telegram. Junte-se a nós!</string>
-    <string name="2by2 Project_telegram_channel_title">Canal de atualizações</string>
-    <string name="2by2 Project_telegram_channel_summary">Seja notificado sobre novas compilações no Telegram</string>
-    <string name="2by2 Project_website_title">Site oficial</string>
-    <string name="2by2 Project_website_summary">Visite nosso site oficial</string>
-    <string name="2by2 Project_translate_title">Traduções</string>
-    <string name="2by2 Project_translate_summary">Ajude a traduzir a ROM para o seu idioma!</string>
-    <string name="2by2 Project_sponsor_summary">Visite nosso parceiro de hospedagem de site</string>
-    <string name="2by2 Project_buildserversponsor_summary">Recomendamos seus servidores se estiver interessado em um</string>
+    <string name="crdroid_source_title">GitHub</string>
+    <string name="crdroid_source_summary">Nós amamos o código aberto, confira</string>
+    <string name="crdroid_telegram_title">Comunidade 2by2 Project</string>
+    <string name="crdroid_telegram_summary">Estamos no telegram. Junte-se a nós!</string>
+    <string name="crdroid_telegram_channel_title">Canal de atualizações</string>
+    <string name="crdroid_telegram_channel_summary">Seja notificado sobre novas compilações no Telegram</string>
+    <string name="crdroid_website_title">Site oficial</string>
+    <string name="crdroid_website_summary">Visite nosso site oficial</string>
+    <string name="crdroid_translate_title">Traduções</string>
+    <string name="crdroid_translate_summary">Ajude a traduzir a ROM para o seu idioma!</string>
+    <string name="crdroid_sponsor_summary">Visite nosso parceiro de hospedagem de site</string>
+    <string name="crdroid_buildserversponsor_summary">Recomendamos seus servidores se estiver interessado em um</string>
     <!-- Donate 2by2 Project -->
-    <string name="donate_2by2 Project_title">Apoie-nos</string>
-    <string name="donate_2by2 Project_summary">Doe para apoiar o desenvolvimento</string>
+    <string name="donate_crdroid_title">Apoie-nos</string>
+    <string name="donate_crdroid_summary">Doe para apoiar o desenvolvimento</string>
     <string name="donate_team_title">Equipe 2by2 Project</string>
     <string name="donate_team_summary">Contribua para manter o servidor de hospedagem, tempo de atividade e gerenciamento geral do site</string>
     <!-- The Drill -->
     <string name="drill_title">Diagnóstico</string>
     <string name="drill_summary">Encontrou um bug? Encontrou um problema?</string>
     <!-- OTA -->
-    <string name="2by2 Project_update_title">Atualizações</string>
-    <string name="2by2 Project_update_summary">Verificar e baixar a última atualização</string>
+    <string name="crdroid_update_title">Atualizações</string>
+    <string name="crdroid_update_summary">Verificar e baixar a última atualização</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play Store</string>
     <!-- Custom seekbar -->
@@ -548,7 +548,7 @@
     <string name="qs_footer_services_icon_title">Atalho de serviços em execução</string>
     <string name="qs_footer_settings_icon_title">Atalho de configurações</string>
     <!-- Device Info screen. 2by2 Project legal. -->
-    <string name="2by2 Project_license_title">2by2 Project é legal</string>
+    <string name="crdroid_license_title">2by2 Project é legal</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Controle deslizante de brilho</string>
     <string name="qs_show_brightness_slider_title">Controle deslizante de brilho</string>
@@ -948,7 +948,7 @@
     <string name="status_bar_logo_summary">Exibe uma logo personalizada no lado esquerdo ou direito da barra de status</string>
     <string name="status_bar_logo_position_title">Posição do logo</string>
     <string name="status_bar_logo_style_title">Estilo do logo</string>
-    <string name="status_bar_logo_style_2by2 Project">2by2 Project</string>
+    <string name="status_bar_logo_style_crdroid">2by2 Project</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Alienígena</string>

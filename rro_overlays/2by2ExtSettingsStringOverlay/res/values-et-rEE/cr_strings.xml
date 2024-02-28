@@ -16,8 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="2by2 Project_settings_title">2by2 Projecti seaded</string>
-    <string name="2by2 Project_settings_summary">Ava hea kraam</string>
+    <string name="crdroid_settings_title">2by2 Projecti seaded</string>
+    <string name="crdroid_settings_summary">Ava hea kraam</string>
     <string name="reset_settings_title">Lähtesta seaded</string>
     <string name="reset_settings_message">See lähtestab valitud kasutaja jaoks enamus CrDroidi seaded vaikeväärtustele. Kas soovid jätkata?</string>
     <!-- Personalization Categories -->
@@ -55,41 +55,41 @@
     <string name="wallpaper_color">Taustapildi värv</string>
     <string name="custom_color">Kohandatud värv</string>
     <!-- Changelog -->
-    <string name="changelog_2by2 Project_title">Praegune muudatuste logi</string>
-    <string name="changelog_2by2 Project_summary">Vaata paigaldatud ROMi muudatusi</string>
-    <string name="changelog_2by2 Project_error">Muudatuste logi ei saanud laadida</string>
+    <string name="changelog_crdroid_title">Praegune muudatuste logi</string>
+    <string name="changelog_crdroid_summary">Vaata paigaldatud ROMi muudatusi</string>
+    <string name="changelog_crdroid_error">Muudatuste logi ei saanud laadida</string>
     <!-- About 2by2 Project -->
-    <string name="about_2by2 Project">Info 2by2 Projecti kohta</string>
+    <string name="about_crdroid">Info 2by2 Projecti kohta</string>
     <string name="about_device_name">Seade</string>
     <!-- Share 2by2 Project -->
-    <string name="share_2by2 Project_title">Jaga 2by2 Projecti</string>
-    <string name="share_2by2 Project_summary">Anna teistele teada 2by2 Projectist</string>
+    <string name="share_crdroid_title">Jaga 2by2 Projecti</string>
+    <string name="share_crdroid_summary">Anna teistele teada 2by2 Projectist</string>
     <string name="share_message">Uuri kas #2by2Project on saadaval sinu seadmele https://2by2 Project.net/</string>
     <string name="share_chooser_title">Jaga 2by2 Projecti</string>
     <!-- Sites 2by2 Project -->
-    <string name="2by2 Project_source_title">GitHub</string>
-    <string name="2by2 Project_source_summary">Me armastame avatud tarkvara, tutvu meiega</string>
-    <string name="2by2 Project_telegram_title">2by2 Project kogukond</string>
-    <string name="2by2 Project_telegram_summary">Liitu meie Telegrami kommuuniga!</string>
-    <string name="2by2 Project_telegram_channel_title">Uuendustekanal</string>
-    <string name="2by2 Project_telegram_channel_summary">Saa Telegramis uute versioonide teavitusi</string>
-    <string name="2by2 Project_website_title">Ametlik veebileht</string>
-    <string name="2by2 Project_website_summary">Külasta meie ametlikku kodulehte</string>
-    <string name="2by2 Project_translate_title">Tõlked</string>
-    <string name="2by2 Project_translate_summary">Aita ROM tõlkida oma emakeelde!</string>
-    <string name="2by2 Project_sponsor_summary">Külasta meie veebisaidi hostpartnerit</string>
-    <string name="2by2 Project_buildserversponsor_summary">Soovitame nende servereid, kui oled huvitatud</string>
+    <string name="crdroid_source_title">GitHub</string>
+    <string name="crdroid_source_summary">Me armastame avatud tarkvara, tutvu meiega</string>
+    <string name="crdroid_telegram_title">2by2 Project kogukond</string>
+    <string name="crdroid_telegram_summary">Liitu meie Telegrami kommuuniga!</string>
+    <string name="crdroid_telegram_channel_title">Uuendustekanal</string>
+    <string name="crdroid_telegram_channel_summary">Saa Telegramis uute versioonide teavitusi</string>
+    <string name="crdroid_website_title">Ametlik veebileht</string>
+    <string name="crdroid_website_summary">Külasta meie ametlikku kodulehte</string>
+    <string name="crdroid_translate_title">Tõlked</string>
+    <string name="crdroid_translate_summary">Aita ROM tõlkida oma emakeelde!</string>
+    <string name="crdroid_sponsor_summary">Külasta meie veebisaidi hostpartnerit</string>
+    <string name="crdroid_buildserversponsor_summary">Soovitame nende servereid, kui oled huvitatud</string>
     <!-- Donate 2by2 Project -->
-    <string name="donate_2by2 Project_title">Toeta meid</string>
-    <string name="donate_2by2 Project_summary">Anneta edasise arenduse toetamiseks</string>
+    <string name="donate_crdroid_title">Toeta meid</string>
+    <string name="donate_crdroid_summary">Anneta edasise arenduse toetamiseks</string>
     <string name="donate_team_title">2by2 Projecti meeskond</string>
     <string name="donate_team_summary">Anneta, et toetada serveri majutust, veebilehe ülalpidamist ning üleüldist haldust</string>
     <!-- The Drill -->
     <string name="drill_title">Nagu ikka</string>
     <string name="drill_summary">Leidsid vea? Tekkis probleem?</string>
     <!-- OTA -->
-    <string name="2by2 Project_update_title">Uuendused</string>
-    <string name="2by2 Project_update_summary">Kontrolli ja laadi alla viimatine uuendus</string>
+    <string name="crdroid_update_title">Uuendused</string>
+    <string name="crdroid_update_summary">Kontrolli ja laadi alla viimatine uuendus</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Custom seekbar -->
@@ -548,7 +548,7 @@
     <string name="qs_footer_services_icon_title">Töötavate teenuste otsetee</string>
     <string name="qs_footer_settings_icon_title">Seadete otsetee</string>
     <!-- Device Info screen. 2by2 Project legal. -->
-    <string name="2by2 Project_license_title">2by2 Projecti legaalne</string>
+    <string name="crdroid_license_title">2by2 Projecti legaalne</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Heleduse liugur</string>
     <string name="qs_show_brightness_slider_title">Heleduse liugur</string>
@@ -948,7 +948,7 @@
     <string name="status_bar_logo_summary">Kuva kohandatud logo olekuribast vasakul või paremal</string>
     <string name="status_bar_logo_position_title">Logo asukoht</string>
     <string name="status_bar_logo_style_title">Logo stiil</string>
-    <string name="status_bar_logo_style_2by2 Project">2by2 Project</string>
+    <string name="status_bar_logo_style_crdroid">2by2 Project</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Tulnukas</string>

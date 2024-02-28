@@ -16,8 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="2by2 Project_settings_title">2by2 Project Podešavanja</string>
-    <string name="2by2 Project_settings_summary">Otvori dobre stvari</string>
+    <string name="crdroid_settings_title">2by2 Project Podešavanja</string>
+    <string name="crdroid_settings_summary">Otvori dobre stvari</string>
     <string name="reset_settings_title">Resetuj podešavanja</string>
     <string name="reset_settings_message">Ovo će resetovati većinu 2by2 Project podešavanja na njihove podrazumevane vrednosti za trenutnog korisnika. Želite li da nastavite?</string>
     <!-- Personalization Categories -->
@@ -55,41 +55,41 @@
     <string name="wallpaper_color">Wallpaper color</string>
     <string name="custom_color">Custom color</string>
     <!-- Changelog -->
-    <string name="changelog_2by2 Project_title">Trenutna lista izmena</string>
-    <string name="changelog_2by2 Project_summary">Vidi izmene u trenutno instaliranom ROM-u</string>
-    <string name="changelog_2by2 Project_error">Ne mogu učitati listu izmena</string>
+    <string name="changelog_crdroid_title">Trenutna lista izmena</string>
+    <string name="changelog_crdroid_summary">Vidi izmene u trenutno instaliranom ROM-u</string>
+    <string name="changelog_crdroid_error">Ne mogu učitati listu izmena</string>
     <!-- About 2by2 Project -->
-    <string name="about_2by2 Project">O 2by2 Project-u</string>
+    <string name="about_crdroid">O 2by2 Project-u</string>
     <string name="about_device_name">Uređaj</string>
     <!-- Share 2by2 Project -->
-    <string name="share_2by2 Project_title">Podeli 2by2 Project</string>
-    <string name="share_2by2 Project_summary">Obavesti druge o 2by2 Project-u</string>
+    <string name="share_crdroid_title">Podeli 2by2 Project</string>
+    <string name="share_crdroid_summary">Obavesti druge o 2by2 Project-u</string>
     <string name="share_message">Proveri da li je #2by2Project dostupan za tvoj uređaj @ https://2by2 Project.net/</string>
     <string name="share_chooser_title">Podeli 2by2 Project</string>
     <!-- Sites 2by2 Project -->
-    <string name="2by2 Project_source_title">GitHub</string>
-    <string name="2by2 Project_source_summary">Mi volimo open source, proveri nas</string>
-    <string name="2by2 Project_telegram_title">2by2 Project zajednica</string>
-    <string name="2by2 Project_telegram_summary">Na Telegramu smo. Pridruži nam se!</string>
-    <string name="2by2 Project_telegram_channel_title">Update kanal</string>
-    <string name="2by2 Project_telegram_channel_summary">Budi obavešten o novom verziji na Terlegramu</string>
-    <string name="2by2 Project_website_title">Zvaničan vebsajt</string>
-    <string name="2by2 Project_website_summary">Poseti naš zvanični vebsajt</string>
-    <string name="2by2 Project_translate_title">Prevodi</string>
-    <string name="2by2 Project_translate_summary">Pomozi nam sa lokalizacijama ROM-a na tvom jeziku!</string>
-    <string name="2by2 Project_sponsor_summary">Posetite host partnere našeg sajta</string>
-    <string name="2by2 Project_buildserversponsor_summary">We recommend their servers if interested in one</string>
+    <string name="crdroid_source_title">GitHub</string>
+    <string name="crdroid_source_summary">Mi volimo open source, proveri nas</string>
+    <string name="crdroid_telegram_title">2by2 Project zajednica</string>
+    <string name="crdroid_telegram_summary">Na Telegramu smo. Pridruži nam se!</string>
+    <string name="crdroid_telegram_channel_title">Update kanal</string>
+    <string name="crdroid_telegram_channel_summary">Budi obavešten o novom verziji na Terlegramu</string>
+    <string name="crdroid_website_title">Zvaničan vebsajt</string>
+    <string name="crdroid_website_summary">Poseti naš zvanični vebsajt</string>
+    <string name="crdroid_translate_title">Prevodi</string>
+    <string name="crdroid_translate_summary">Pomozi nam sa lokalizacijama ROM-a na tvom jeziku!</string>
+    <string name="crdroid_sponsor_summary">Posetite host partnere našeg sajta</string>
+    <string name="crdroid_buildserversponsor_summary">We recommend their servers if interested in one</string>
     <!-- Donate 2by2 Project -->
-    <string name="donate_2by2 Project_title">Podržite nas</string>
-    <string name="donate_2by2 Project_summary">Donirajte da podržite dalji razvoj</string>
+    <string name="donate_crdroid_title">Podržite nas</string>
+    <string name="donate_crdroid_summary">Donirajte da podržite dalji razvoj</string>
     <string name="donate_team_title">2by2 Project tim</string>
     <string name="donate_team_summary">Donirajte da podržite hosting servera, sajt i sveukupno održavanje</string>
     <!-- The Drill -->
     <string name="drill_title">Dril</string>
     <string name="drill_summary">Našli ste grešku? Naišli ste na problem?</string>
     <!-- OTA -->
-    <string name="2by2 Project_update_title">Ažuriranja</string>
-    <string name="2by2 Project_update_summary">Proveri i preuzmi poslednje ažuriranje</string>
+    <string name="crdroid_update_title">Ažuriranja</string>
+    <string name="crdroid_update_summary">Proveri i preuzmi poslednje ažuriranje</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Custom seekbar -->
@@ -549,7 +549,7 @@
     <string name="qs_footer_services_icon_title">Prečica pokrenutih servisa</string>
     <string name="qs_footer_settings_icon_title">Prečica za podešavanja</string>
     <!-- Device Info screen. 2by2 Project legal. -->
-    <string name="2by2 Project_license_title">2by2 Project pravne informacije</string>
+    <string name="crdroid_license_title">2by2 Project pravne informacije</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Klizač za nivo osvetljenja</string>
     <string name="qs_show_brightness_slider_title">Nivo osvjetljenja</string>
@@ -950,7 +950,7 @@
     <string name="status_bar_logo_summary">Display a custom logo on left or right of the status bar</string>
     <string name="status_bar_logo_position_title">Logo position</string>
     <string name="status_bar_logo_style_title">Logo style</string>
-    <string name="status_bar_logo_style_2by2 Project">2by2 Project</string>
+    <string name="status_bar_logo_style_crdroid">2by2 Project</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Alien</string>

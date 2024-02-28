@@ -16,8 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="2by2 Project_settings_title">2by2 Project 設定</string>
-    <string name="2by2 Project_settings_summary">各項設定，一次滿足</string>
+    <string name="crdroid_settings_title">2by2 Project 設定</string>
+    <string name="crdroid_settings_summary">各項設定，一次滿足</string>
     <string name="reset_settings_title">恢復默認設置</string>
     <string name="reset_settings_message">這會將目前使用者的 2by2 Project 設定重設為預設值。您要繼續嗎？</string>
     <!-- Personalization Categories -->
@@ -55,41 +55,41 @@
     <string name="wallpaper_color">桌布顏色</string>
     <string name="custom_color">自訂顏色</string>
     <!-- Changelog -->
-    <string name="changelog_2by2 Project_title">更新紀錄</string>
-    <string name="changelog_2by2 Project_summary">查看此 ROM 的更新紀錄</string>
-    <string name="changelog_2by2 Project_error">無法載入更新日誌</string>
+    <string name="changelog_crdroid_title">更新紀錄</string>
+    <string name="changelog_crdroid_summary">查看此 ROM 的更新紀錄</string>
+    <string name="changelog_crdroid_error">無法載入更新日誌</string>
     <!-- About 2by2 Project -->
-    <string name="about_2by2 Project">關於 2by2 Project</string>
+    <string name="about_crdroid">關於 2by2 Project</string>
     <string name="about_device_name">裝置</string>
     <!-- Share 2by2 Project -->
-    <string name="share_2by2 Project_title">分享 2by2 Project</string>
-    <string name="share_2by2 Project_summary">讓別人知道 2by2 Project</string>
+    <string name="share_crdroid_title">分享 2by2 Project</string>
+    <string name="share_crdroid_summary">讓別人知道 2by2 Project</string>
     <string name="share_message">在 https://2by2 Project.net/ 看看 #2by2 Project Android</string>
     <string name="share_chooser_title">分享 2by2 Project</string>
     <!-- Sites 2by2 Project -->
-    <string name="2by2 Project_source_title">GitHub</string>
-    <string name="2by2 Project_source_summary">我們愛開源，來看看吧</string>
-    <string name="2by2 Project_telegram_title">2by2 Project 社群</string>
-    <string name="2by2 Project_telegram_summary">我們也在 Telegram 上，快加入我們！</string>
-    <string name="2by2 Project_telegram_channel_title">更新通道</string>
-    <string name="2by2 Project_telegram_channel_summary">在 Telegram 上獲取新版本通知</string>
-    <string name="2by2 Project_website_title">官方網站</string>
-    <string name="2by2 Project_website_summary">造訪官方網站</string>
-    <string name="2by2 Project_translate_title">翻譯</string>
-    <string name="2by2 Project_translate_summary">幫忙將 ROM 翻譯成您的語言！</string>
-    <string name="2by2 Project_sponsor_summary">造訪我們的網頁寄存服務提供者</string>
-    <string name="2by2 Project_buildserversponsor_summary">我們十分推薦這些伺服器提供商</string>
+    <string name="crdroid_source_title">GitHub</string>
+    <string name="crdroid_source_summary">我們愛開源，來看看吧</string>
+    <string name="crdroid_telegram_title">2by2 Project 社群</string>
+    <string name="crdroid_telegram_summary">我們也在 Telegram 上，快加入我們！</string>
+    <string name="crdroid_telegram_channel_title">更新通道</string>
+    <string name="crdroid_telegram_channel_summary">在 Telegram 上獲取新版本通知</string>
+    <string name="crdroid_website_title">官方網站</string>
+    <string name="crdroid_website_summary">造訪官方網站</string>
+    <string name="crdroid_translate_title">翻譯</string>
+    <string name="crdroid_translate_summary">幫忙將 ROM 翻譯成您的語言！</string>
+    <string name="crdroid_sponsor_summary">造訪我們的網頁寄存服務提供者</string>
+    <string name="crdroid_buildserversponsor_summary">我們十分推薦這些伺服器提供商</string>
     <!-- Donate 2by2 Project -->
-    <string name="donate_2by2 Project_title">贊助我們</string>
-    <string name="donate_2by2 Project_summary">捐贈以支持開放原始碼開發。</string>
+    <string name="donate_crdroid_title">贊助我們</string>
+    <string name="donate_crdroid_summary">捐贈以支持開放原始碼開發。</string>
     <string name="donate_team_title">2by2 Project 團隊</string>
     <string name="donate_team_summary">贊助以支援我們的伺服器代管，網站運作與總體管理</string>
     <!-- The Drill -->
     <string name="drill_title">測試</string>
     <string name="drill_summary">發現了一個錯誤？遇到問題？</string>
     <!-- OTA -->
-    <string name="2by2 Project_update_title">更新</string>
-    <string name="2by2 Project_update_summary">檢查並下載最新的更新</string>
+    <string name="crdroid_update_title">更新</string>
+    <string name="crdroid_update_summary">檢查並下載最新的更新</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Play商店</string>
     <!-- Custom seekbar -->
@@ -547,7 +547,7 @@
     <string name="qs_footer_services_icon_title">正在運作中的服務圖示</string>
     <string name="qs_footer_settings_icon_title">設定圖示</string>
     <!-- Device Info screen. 2by2 Project legal. -->
-    <string name="2by2 Project_license_title">2by2 Project 條款</string>
+    <string name="crdroid_license_title">2by2 Project 條款</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">亮度控制條</string>
     <string name="qs_show_brightness_slider_title">亮度控制條</string>
@@ -946,7 +946,7 @@
     <string name="status_bar_logo_summary">在狀態列左側顯示自訂圖示</string>
     <string name="status_bar_logo_position_title">圖示位置</string>
     <string name="status_bar_logo_style_title">圖示樣式</string>
-    <string name="status_bar_logo_style_2by2 Project">2by2 Project</string>
+    <string name="status_bar_logo_style_crdroid">2by2 Project</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">愛迪達</string>
     <string name="status_bar_logo_style_alien">外星人</string>

@@ -16,8 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="2by2 Project_settings_title">Nastavenia 2by2 Project</string>
-    <string name="2by2 Project_settings_summary">Otvorte dobroty</string>
+    <string name="crdroid_settings_title">Nastavenia 2by2 Project</string>
+    <string name="crdroid_settings_summary">Otvorte dobroty</string>
     <string name="reset_settings_title">Resetovať nastavenia</string>
     <string name="reset_settings_message">To obnoví väčšinu 2by2 Project nastavení na predvolené hodnoty pre aktuálneho používateľa. Chcete pokračovať?</string>
     <!-- Personalization Categories -->
@@ -55,42 +55,42 @@
     <string name="wallpaper_color">Farba tapety</string>
     <string name="custom_color">Vlastná farba</string>
     <!-- Changelog -->
-    <string name="changelog_2by2 Project_title">Aktuálny zoznam zmien</string>
-    <string name="changelog_2by2 Project_summary">Zobraziť zmeny v nainštalovanej ROM</string>
-    <string name="changelog_2by2 Project_error">Nie je možné načítať zoznam zmien</string>
+    <string name="changelog_crdroid_title">Aktuálny zoznam zmien</string>
+    <string name="changelog_crdroid_summary">Zobraziť zmeny v nainštalovanej ROM</string>
+    <string name="changelog_crdroid_error">Nie je možné načítať zoznam zmien</string>
     <!-- About 2by2 Project -->
-    <string name="about_2by2 Project">O 2by2 Project</string>
+    <string name="about_crdroid">O 2by2 Project</string>
     <string name="about_device_name">Zariadenie</string>
     <!-- Share 2by2 Project -->
-    <string name="share_2by2 Project_title">Zdieľať 2by2 Project</string>
-    <string name="share_2by2 Project_summary">Dajte ostatným vedieť o 2by2 Project</string>
+    <string name="share_crdroid_title">Zdieľať 2by2 Project</string>
+    <string name="share_crdroid_summary">Dajte ostatným vedieť o 2by2 Project</string>
     <string name="share_message">Zistite o #2by2 Project viac na @ https://2by2 Project.net/</string>
     <string name="share_chooser_title">Zdieľať 2by2 Project</string>
     <!-- Sites 2by2 Project -->
-    <string name="2by2 Project_source_title">GitHub</string>
-    <string name="2by2 Project_source_summary">Máme radi open source, pozrite sa na nás</string>
-    <string name="2by2 Project_telegram_title">Telegram</string>
-    <string name="2by2 Project_telegram_summary">My sme aj na Telegrame. Pripojte sa k nám!</string>
-    <string name="2by2 Project_telegram_channel_title">Kanál aktualizácií</string>
-    <string name="2by2 Project_telegram_channel_summary">Dostávajte na Telegrame upozornenia o\u00a0nových zostaveniach</string>
-    <string name="2by2 Project_website_title">Oficiálna webstránka</string>
-    <string name="2by2 Project_website_summary">Navštívte našu oficiálnu stránku</string>
-    <string name="2by2 Project_translate_title">Preklady</string>
-    <string name="2by2 Project_translate_summary">Pomoc s lokalizáciou ROM vo vašom jazyku! 
+    <string name="crdroid_source_title">GitHub</string>
+    <string name="crdroid_source_summary">Máme radi open source, pozrite sa na nás</string>
+    <string name="crdroid_telegram_title">Telegram</string>
+    <string name="crdroid_telegram_summary">My sme aj na Telegrame. Pripojte sa k nám!</string>
+    <string name="crdroid_telegram_channel_title">Kanál aktualizácií</string>
+    <string name="crdroid_telegram_channel_summary">Dostávajte na Telegrame upozornenia o\u00a0nových zostaveniach</string>
+    <string name="crdroid_website_title">Oficiálna webstránka</string>
+    <string name="crdroid_website_summary">Navštívte našu oficiálnu stránku</string>
+    <string name="crdroid_translate_title">Preklady</string>
+    <string name="crdroid_translate_summary">Pomoc s lokalizáciou ROM vo vašom jazyku! 
 Ashle-XDA [SLOVAK Preklad]</string>
-    <string name="2by2 Project_sponsor_summary">Navštívte hostiteľa nášho webu</string>
-    <string name="2by2 Project_buildserversponsor_summary">Doporučujeme ich servery, ak máte záujem</string>
+    <string name="crdroid_sponsor_summary">Navštívte hostiteľa nášho webu</string>
+    <string name="crdroid_buildserversponsor_summary">Doporučujeme ich servery, ak máte záujem</string>
     <!-- Donate 2by2 Project -->
-    <string name="donate_2by2 Project_title">Podporte nás</string>
-    <string name="donate_2by2 Project_summary">Prispejte na podporu rozvoja a na náš server</string>
+    <string name="donate_crdroid_title">Podporte nás</string>
+    <string name="donate_crdroid_summary">Prispejte na podporu rozvoja a na náš server</string>
     <string name="donate_team_title">2by2 Project tím</string>
     <string name="donate_team_summary">Prispejte na podporu hostingového servera, prevádzku a celkovú správu webu</string>
     <!-- The Drill -->
     <string name="drill_title">Správa od vývojárov</string>
     <string name="drill_summary">Bola nájdená chyba? Došlo k problému?</string>
     <!-- OTA -->
-    <string name="2by2 Project_update_title">Aktualizácie</string>
-    <string name="2by2 Project_update_summary">Skontrovat aktualizáciu OTA a odkazy pre zariadenie</string>
+    <string name="crdroid_update_title">Aktualizácie</string>
+    <string name="crdroid_update_summary">Skontrovat aktualizáciu OTA a odkazy pre zariadenie</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Obchod Google Play</string>
     <!-- Custom seekbar -->
@@ -551,7 +551,7 @@ Ashle-XDA [SLOVAK Preklad]</string>
     <string name="qs_footer_services_icon_title">Odkaz na spustené služby</string>
     <string name="qs_footer_settings_icon_title">Odkaz na nastavenia</string>
     <!-- Device Info screen. 2by2 Project legal. -->
-    <string name="2by2 Project_license_title">Licencia 2by2 Project</string>
+    <string name="crdroid_license_title">Licencia 2by2 Project</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Posuvník jasu</string>
     <string name="qs_show_brightness_slider_title">Posuvník jasu</string>
@@ -953,7 +953,7 @@ Ashle-XDA [SLOVAK Preklad]</string>
     <string name="status_bar_logo_summary">Zobraziť vlastné logo na ľavej alebo pravej strane stavového riadka</string>
     <string name="status_bar_logo_position_title">Umiestnenie loga</string>
     <string name="status_bar_logo_style_title">Štýl loga</string>
-    <string name="status_bar_logo_style_2by2 Project">2by2 Project</string>
+    <string name="status_bar_logo_style_crdroid">2by2 Project</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Mimozemšťan</string>

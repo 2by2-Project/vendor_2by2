@@ -16,8 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="2by2 Project_settings_title">إعدادات 2by2 Project</string>
-    <string name="2by2 Project_settings_summary">ملخص الإعدادات</string>
+    <string name="crdroid_settings_title">إعدادات 2by2 Project</string>
+    <string name="crdroid_settings_summary">ملخص الإعدادات</string>
     <string name="reset_settings_title">إعادة ضبط الإعدادات</string>
     <string name="reset_settings_message">سيؤدي ذلك إلى إعادة تعيين معظم إعدادات 2by2 Project إلى قيمها الافتراضية للمستخدم الحالي. هل ترغب في المتابعة؟</string>
     <!-- Personalization Categories -->
@@ -55,41 +55,41 @@
     <string name="wallpaper_color">壁纸颜色</string>
     <string name="custom_color">تخصيص اللون</string>
     <!-- Changelog -->
-    <string name="changelog_2by2 Project_title">سجل التغييرات الحالي</string>
-    <string name="changelog_2by2 Project_summary">عرض التغييرات في الروم المثبت</string>
-    <string name="changelog_2by2 Project_error">غير قادر على تحميل سجل التغييرات</string>
+    <string name="changelog_crdroid_title">سجل التغييرات الحالي</string>
+    <string name="changelog_crdroid_summary">عرض التغييرات في الروم المثبت</string>
+    <string name="changelog_crdroid_error">غير قادر على تحميل سجل التغييرات</string>
     <!-- About 2by2 Project -->
-    <string name="about_2by2 Project">حول 2by2 Project</string>
+    <string name="about_crdroid">حول 2by2 Project</string>
     <string name="about_device_name">الجهاز</string>
     <!-- Share 2by2 Project -->
-    <string name="share_2by2 Project_title">مشاركة 2by2 Project</string>
-    <string name="share_2by2 Project_summary">دع الآخرين يعرفون عن 2by2 Project</string>
+    <string name="share_crdroid_title">مشاركة 2by2 Project</string>
+    <string name="share_crdroid_summary">دع الآخرين يعرفون عن 2by2 Project</string>
     <string name="share_message">تحقق مما إذا كان #2by2Project متوفر لجهازك @ https://2by2 Project.net/</string>
     <string name="share_chooser_title">مشاركة 2by2 Project</string>
     <!-- Sites 2by2 Project -->
-    <string name="2by2 Project_source_title">على موقع Github</string>
-    <string name="2by2 Project_source_summary">نحن نحب المصدر المفتوح، تحقق منا</string>
-    <string name="2by2 Project_telegram_title">مجتمع 2by2 Project</string>
-    <string name="2by2 Project_telegram_summary">نحن على تليجرام. انضم إلينا!</string>
-    <string name="2by2 Project_telegram_channel_title">قناة التحديثات</string>
-    <string name="2by2 Project_telegram_channel_summary">احصل على إشعارات بالتحديثات الجديدة على تيليجرام</string>
-    <string name="2by2 Project_website_title">الموقع الرسمي</string>
-    <string name="2by2 Project_website_summary">زيارة موقعنا الرسمي</string>
-    <string name="2by2 Project_translate_title">الترجمة</string>
-    <string name="2by2 Project_translate_summary">المساعدة في تعريب الروم بلغتك!</string>
-    <string name="2by2 Project_sponsor_summary">قم بزيارة الشريك المضيف لموقعنا</string>
-    <string name="2by2 Project_buildserversponsor_summary">نحن نوصي بخوادمهم إن كنت مهتمًا</string>
+    <string name="crdroid_source_title">على موقع Github</string>
+    <string name="crdroid_source_summary">نحن نحب المصدر المفتوح، تحقق منا</string>
+    <string name="crdroid_telegram_title">مجتمع 2by2 Project</string>
+    <string name="crdroid_telegram_summary">نحن على تليجرام. انضم إلينا!</string>
+    <string name="crdroid_telegram_channel_title">قناة التحديثات</string>
+    <string name="crdroid_telegram_channel_summary">احصل على إشعارات بالتحديثات الجديدة على تيليجرام</string>
+    <string name="crdroid_website_title">الموقع الرسمي</string>
+    <string name="crdroid_website_summary">زيارة موقعنا الرسمي</string>
+    <string name="crdroid_translate_title">الترجمة</string>
+    <string name="crdroid_translate_summary">المساعدة في تعريب الروم بلغتك!</string>
+    <string name="crdroid_sponsor_summary">قم بزيارة الشريك المضيف لموقعنا</string>
+    <string name="crdroid_buildserversponsor_summary">نحن نوصي بخوادمهم إن كنت مهتمًا</string>
     <!-- Donate 2by2 Project -->
-    <string name="donate_2by2 Project_title">ادعمنا</string>
-    <string name="donate_2by2 Project_summary">تبرع لدعم المزيد من التطوير</string>
+    <string name="donate_crdroid_title">ادعمنا</string>
+    <string name="donate_crdroid_summary">تبرع لدعم المزيد من التطوير</string>
     <string name="donate_team_title">فريق 2by2 Project</string>
     <string name="donate_team_summary">التبرع لدعم استضافة الخوادم، وموقع العمل الإضافي والإدارة العامة</string>
     <!-- The Drill -->
     <string name="drill_title">الطريقة لابلاغ عن مشكلة</string>
     <string name="drill_summary">وجدت خطأ؟ وقعت في مشكلة؟</string>
     <!-- OTA -->
-    <string name="2by2 Project_update_title">التحديثات</string>
-    <string name="2by2 Project_update_summary">التحقق من أحدث تحديث وتحميله</string>
+    <string name="crdroid_update_title">التحديثات</string>
+    <string name="crdroid_update_summary">التحقق من أحدث تحديث وتحميله</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">في Google Play</string>
     <!-- Custom seekbar -->
@@ -552,7 +552,7 @@
     <string name="qs_footer_services_icon_title">عرض رمز اختصار للخدمات قيد التشغيل</string>
     <string name="qs_footer_settings_icon_title">إختصار الإعدادات</string>
     <!-- Device Info screen. 2by2 Project legal. -->
-    <string name="2by2 Project_license_title">فريق 2by2 Project</string>
+    <string name="crdroid_license_title">فريق 2by2 Project</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">شريط تمرير السطوع</string>
     <string name="qs_show_brightness_slider_title">شريط السطوع</string>
@@ -956,7 +956,7 @@
     <string name="status_bar_logo_summary">عرض شعار مخصص على اليسار أو اليمين من شريط الحالة</string>
     <string name="status_bar_logo_position_title">موقع الشعار</string>
     <string name="status_bar_logo_style_title">نمط الشعار</string>
-    <string name="status_bar_logo_style_2by2 Project">2by2 Project</string>
+    <string name="status_bar_logo_style_crdroid">2by2 Project</string>
     <string name="status_bar_logo_style_android">أندرويد</string>
     <string name="status_bar_logo_style_adidas">أديداس</string>
     <string name="status_bar_logo_style_alien">كائن فضائي</string>
