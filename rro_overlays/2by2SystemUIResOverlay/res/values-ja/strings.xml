@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SystemUI-common -->
+    <string name="auto_saver_enabled_text">電池が %d%% を下回ると、長エネスイッチが自動的に ON になります。</string>
+    <string name="auto_saver_enabled_title">長エネスイッチのスケジュール設定 ON</string>
+    <string name="auto_saver_title">タップして長エネスイッチのスケジュールを設定</string>
+    <string name="battery_detail_charging_summary">充電中は長エネスイッチは利用できません</string>
+    <string name="battery_detail_switch_title">長エネスイッチ</string>
+    <string name="battery_low_percent_format_saver_started">残量が %s です。長エネスイッチは ON です。</string>
+    <string name="battery_saver_confirmation_title">長エネスイッチを ON にしますか？</string>
+    <string name="battery_saver_confirmation_title_generic">長エネスイッチについて</string>
+    <string name="battery_saver_notification_action_text">長エネスイッチを OFF</string>
+    <string name="battery_saver_notification_title">長エネスイッチ ON</string>
+    <string name="battery_saver_start_action">長エネスイッチを ON</string>
+    <string name="camera_hint">アイコンからスワイプしてカメラを起動</string>
+    <string name="quick_settings_dark_mode_secondary_label_battery_saver">長エネスイッチ</string>
+    <string name="quick_settings_night_display_label">リラックスビュー</string>
+    <string name="screen_pinning_description">固定を解除するまで画面が常に表示されるようになります。[戻る] と [履歴] を同時に押し続けると固定が解除されます。</string>
+    <string name="screen_pinning_description_accessible">固定を解除するまで画面が常に表示されるようになります。[履歴] を押し続けると固定が解除されます。</string>
+    <string name="screen_pinning_exit">固定を解除しました</string>
+    <string name="screen_pinning_start">固定しました</string>
+    <string name="screen_pinning_toast">このアプリの固定を解除するには [戻る] ボタンと [履歴] ボタンを長押しします</string>
+    <string name="screenrecord_device_audio_description">デバイスからの音（音楽、ゲームなど）</string>
+
+    <!-- SystemUI-dozle -->
+    <string name="quick_settings_hotspot_label">テザリング</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Battery Saver -->
+    <string name="battery_saver_description">"電池を長持ちさせるために長エネスイッチが行う操作:
+・ダークモードをオンにする
+・バックグラウンド アクティビティ、一部の視覚効果や、「OK Google」などの機能をオフにする、または制限する"</string>
+    <string name="battery_saver_description_with_learn_more">"電池を長持ちさせるために長エネスイッチが行う操作:
+・ダークモードをオンにする
+・バックグラウンド アクティビティ、一部の視覚効果や、「OK Google」などの機能をオフにする、または制限する
+
+"<annotation id="url">詳細</annotation></string>
+    <string name="battery_saver_notification_channel_name">長エネスイッチ</string>
+    <string name="battery_saver_off_alternative_notification_summary">長エネスイッチが無効になりました。機能は制限されなくなりました。</string>
+    <string name="battery_saver_off_notification_summary">長エネスイッチが無効になりました。機能は制限されなくなりました。</string>
+    <string name="battery_saver_sticky_disabled_notification_summary">電池が十分なレベルまで充電されました。長エネスイッチは、電池残量が再び低下するまで有効に戻りません。</string>
+    <string name="battery_saver_sticky_disabled_notification_title">長エネスイッチは、電池残量が再び低下するまで有効に戻りません。</string>
+    <string name="dynamic_mode_notification_summary">電池を長持ちさせるため、長エネスイッチが有効になりました</string>
+    <string name="emergency_calls_only">通信サービスはありません</string>
+    <string name="permgroupbackgroundrequest_location">このデバイスの位置情報に&lt;b>常に&lt;/b>アクセスすることを &lt;b>%1$s&lt;/b> に許可しますか？</string>
+    <string name="use_a_different_app">別のアプリを使用</string>
+    <string name="whichApplicationNamed">%1$sを使用する</string>
+
+</resources>
