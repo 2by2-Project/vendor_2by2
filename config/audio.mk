@@ -18,6 +18,6 @@ PRODUCT_COPY_FILES += \
 
 # Default Sounds
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.ringtone=Prince_of_Darkness.mp3 \
+    ro.config.ringtone=Frail_Naysayer.mp3 \
     ro.config.alarm_alert=Alarm003301.m4a \
-    ro.config.notification_sound=Notice003205.m4a
+    ro.config.notification_sound=Notice003201.m4a
