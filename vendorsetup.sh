@@ -1,3 +1,4 @@
 #!/bin/bash
 
-# Do something.
+# Use our bootanimation
+rm -rf vendor/addons/prebuilt/bootanimation/Android.mk
