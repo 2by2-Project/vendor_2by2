@@ -1,4 +1,4 @@
-# Copyright (C) 2023 The 2by2 Project
+# Copyright (C) 2024 The 2by2 Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,10 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-2BY2_BUILD_TYPE ?= COMMUNITY
+CUSTOM_BUILD_TYPE ?= COMMUNITY
 
 # Internal version
-LINEAGE_VERSION := 2by2-Project-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)-v$(CR_VERSION)
+LINEAGE_VERSION := 2by2-Project-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)
 
 # Display version
-LINEAGE_DISPLAY_VERSION := 2by2-Project-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(LINEAGE_BUILD)-v$(CR_VERSION)
+LINEAGE_DISPLAY_VERSION := $(LINEAGE_VERSION)
