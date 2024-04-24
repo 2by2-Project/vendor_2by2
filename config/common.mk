@@ -17,11 +17,17 @@ include vendor/2by2/config/version.mk
 
 # Inherit Pixel stuff
 TARGET_IS_PIXEL ?= false
-TARGET_IS_PIXEL_6 ?= false
-TARGET_IS_PIXEL_7 ?= false
-TARGET_IS_PIXEL_8 ?= false
-TARGET_IS_PIXEL_FOLD ?= false
-TARGET_PIXEL_STAND_SUPPORTED ?= false
+
+# Additional supported old Pixels
+LEGACY_PIXELS := \
+    redfin \
+    bramble \
+    sunfish
+
+# Set automatically for supported all Pixels
+ifneq ($(filter $(LINEAGE_BUILD),$(shell cat vendor/lineage/vars/pixels) $(LEGACY_PIXELS)),)
+  TARGET_IS_PIXEL := true
+endif
 
 ifeq ($(TARGET_IS_PIXEL),true)
 $(call inherit-product, vendor/2by2/config/pixel.mk)
