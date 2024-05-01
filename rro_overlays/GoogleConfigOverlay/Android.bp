@@ -4,7 +4,7 @@
 //
 
 runtime_resource_overlay {
-    name: "DefaultDialerOverlay",
+    name: "GoogleConfigOverlay",
     certificate: "platform",
     sdk_version: "current",
     product_specific: true,
