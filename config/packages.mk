@@ -18,6 +18,7 @@ FORCE_AOSP_CONTACTS ?= true
 ifeq ($(WITH_GMS),true)
   TARGET_GAPPS_ARCH ?= arm64
   $(call inherit-product, vendor/gapps/$(TARGET_GAPPS_ARCH)/$(TARGET_GAPPS_ARCH)-vendor.mk)
+  $(call inherit-product-if-exists, vendor/gms/gms.mk)
 endif
 
 # Add su only userdebug and eng builds
