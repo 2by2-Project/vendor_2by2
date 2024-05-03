@@ -19,6 +19,13 @@
     <!-- Component name that should be granted Notification Assistant access -->
     <string name="config_defaultAssistant" translatable="false">com.google.android.googlequicksearchbox</string>
 
+    <!-- The component name, flattened to a string, for the default autofill service
+         to  enabled for an user. This service must be trusted, as it can be activated
+         without explicit consent of the user. If no autofill service with the
+          specified name exists on the device, autofill will be disabled by default.
+    -->
+    <string name="config_defaultAutofillService" translatable="false">com.google.android.gms/.autofill.service.AutofillService</string>
+
     <!-- Default component for QR code scanner -->
     <string name="config_defaultQrCodeComponent" translatable="false">com.google.android.gms/.mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy</string>
 
