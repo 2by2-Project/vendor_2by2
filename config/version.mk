@@ -14,8 +14,13 @@
 
 CUSTOM_BUILD_TYPE ?= COMMUNITY
 
+# Add suffix when building VANILLA edition
+ifeq ($(WITH_GMS),false)
+  VANILLA_SUFFIX := -VANILLA
+endif
+
 # Internal version
-LINEAGE_VERSION := 2by2-Project-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)
+LINEAGE_VERSION := 2by2-Project-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)$(VANILLA_SUFFIX)
 
 # Display version
 LINEAGE_DISPLAY_VERSION := $(LINEAGE_VERSION)
