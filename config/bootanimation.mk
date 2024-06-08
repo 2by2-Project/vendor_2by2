@@ -15,8 +15,6 @@ ifeq ($(filter $(SUPPORTED_RES),$(TARGET_BOOT_ANIMATION_RES).zip),)
     TARGET_BOOT_ANIMATION_RES := 1080
   endif
 
-  $(warning Hmm. looks like your TARGET_BOOT_ANIMATION_RES is not defined, or not supported. Assuming default $(TARGET_BOOT_ANIMATION_RES)p!)
-
 endif
 
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/$(TARGET_BOOT_ANIMATION_RES).zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
