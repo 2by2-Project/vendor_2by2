@@ -7,6 +7,7 @@ PRODUCT_PACKAGES += \
     2by2LauncherOverlay \
     2by2LineageSetupWizardOverlay \
     2by2SetupWizardOverlay \
+    2by2UpdaterOverlay \
     CertifiedPropsOverlay
 
 # Optional
