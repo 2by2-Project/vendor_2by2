@@ -38,3 +38,6 @@ $(call inherit-product, vendor/2by2/prebuilts/fonts_sgr_sgm/fonts.mk)
 
 # Keys
 -include vendor/2by2-example-keys/keys.mk
+
+# Certification
+$(call inherit-product-if-exists, vendor/certification/config.mk)
