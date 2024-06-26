@@ -18,14 +18,10 @@ FORCE_AOSP_CONTACTS ?= true
 ifeq ($(WITH_GMS),true)
   TARGET_GAPPS_ARCH ?= arm64
   $(call inherit-product, vendor/gapps/$(TARGET_GAPPS_ARCH)/$(TARGET_GAPPS_ARCH)-vendor.mk)
-  $(call inherit-product-if-exists, vendor/gms/gms.mk)
-  PRODUCT_PACKAGES += GoogleConfigOverlay
-endif
-
-# Add su only userdebug and eng builds
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
-  PRODUCT_PACKAGES += su
-  PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += system/xbin/su
+  ifneq ($(TARGET_USES_MINI_GAPPS),true)
+    $(call inherit-product-if-exists, vendor/gms/gms.mk)
+    PRODUCT_PACKAGES += GoogleConfigOverlay
+  endif
 endif
 
 # Some prebuilt goodies
@@ -33,6 +29,12 @@ TARGET_INCLUDE_EXTRA_APPS ?= true
 
 ifeq ($(TARGET_INCLUDE_EXTRA_APPS), true)
   $(call inherit-product, vendor/2by2-prebuilt-apps/apps.mk)
+endif
+
+# Add su only userdebug and eng builds
+ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+  PRODUCT_PACKAGES += su
+  PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += system/xbin/su
 endif
 
 # SH apps
