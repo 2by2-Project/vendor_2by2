@@ -41,7 +41,3 @@ $(call inherit-product, vendor/2by2/prebuilts/fonts_sgr_sgm/fonts.mk)
 
 # Certification
 $(call inherit-product-if-exists, vendor/certification/config.mk)
-
-# SysConfig
-PRODUCT_COPY_FILES += \
-    vendor/2by2/config/sysconfig/nexus.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/nexus.xml
