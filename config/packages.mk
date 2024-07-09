@@ -9,6 +9,7 @@ WITH_GMS ?= true
 
 # GMS Flags
 TARGET_USES_MINI_GAPPS ?= false
+TARGET_USES_PICO_GAPPS ?= false
 
 TARGET_SUPPORTS_QUICK_TAP ?= true
 TARGET_USES_PIXEL_LAUNCHER ?= false
@@ -16,12 +17,16 @@ FORCE_AOSP_DIALER ?= true
 FORCE_AOSP_CONTACTS ?= true
 
 ifeq ($(WITH_GMS),true)
+  ifeq ($(TARGET_USES_PICO_GAPPS),true)
+    $(call inherit-product, vendor/gms/gms_pico.mk)
+  else ifeq ($(TARGET_USES_MINI_GAPPS),true)
+    $(call inherit-product, vendor/gms/gms_mini.mk)
+  else
+    $(call inherit-product, vendor/gms/gms_full.mk)
+  endif
+  PRODUCT_PACKAGES += GoogleConfigOverlay
   TARGET_GAPPS_ARCH ?= arm64
   $(call inherit-product, vendor/gapps/$(TARGET_GAPPS_ARCH)/$(TARGET_GAPPS_ARCH)-vendor.mk)
-  ifneq ($(TARGET_USES_MINI_GAPPS),true)
-    $(call inherit-product-if-exists, vendor/gms/gms.mk)
-    PRODUCT_PACKAGES += GoogleConfigOverlay
-  endif
 endif
 
 # Some prebuilt goodies
