@@ -19,5 +19,5 @@ PRODUCT_COPY_FILES += \
 # Default Sounds
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=Princess_of_Light.ogg \
-    ro.config.alarm_alert=Alarm003301.m4a \
+    ro.config.alarm_alert=Birdland.m4a \
     ro.config.notification_sound=Notice003201.m4a
