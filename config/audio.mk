@@ -25,4 +25,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=Princess_of_Light.ogg \
     ro.config.alarm_alert=Birdland.m4a \
-    ro.config.notification_sound=Notice003201.m4a
+    ro.config.notification_sound=material_simple-celebration_1.ogg
