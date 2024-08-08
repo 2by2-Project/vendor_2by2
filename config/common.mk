@@ -49,6 +49,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1
 endif
 
+# Translations
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/2by2-crowdin/overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/2by2-crowdin/overlay
+
 # Keys
 -include vendor/2by2-example-keys/keys.mk
 
