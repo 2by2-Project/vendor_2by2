@@ -17,3 +17,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/2by2/overlay/common \
     vendor/2by2/overlay/themes/CustomIcons
+
+# Overlay defaults
+PRODUCT_COPY_FILES += \
+    vendor/2by2/rro_overlays/config-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/overlay/config/config.xml \
+    vendor/2by2/rro_overlays/partition_order.xml:$(TARGET_COPY_OUT_PRODUCT)/overlay/partition_order.xml
