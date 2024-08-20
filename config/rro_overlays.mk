@@ -11,6 +11,7 @@ PRODUCT_PACKAGES += \
 
 # Optional
 PRODUCT_PACKAGES += \
+    DisableCameraSoundOverlay \
     DndLegacyIcons
 
 # Standard Overlays
