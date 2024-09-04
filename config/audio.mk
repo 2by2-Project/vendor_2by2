@@ -23,6 +23,6 @@ PRODUCT_COPY_FILES += \
 
 # Default Sounds
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.ringtone=Frail_Naysayer.ogg \
+    ro.config.ringtone=Princess_of_Light.ogg \
     ro.config.alarm_alert=Birdland.m4a \
     ro.config.notification_sound=material_simple-celebration_1.ogg
