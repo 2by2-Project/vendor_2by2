@@ -22,5 +22,8 @@ endif
 # Internal version
 LINEAGE_VERSION := 2by2-Project-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)$(VANILLA_SUFFIX)
 
+# Internal version (Lite)
+STATIX_VERSION := 2by2-Project-Lite-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(TARGET_PRODUCT)$(VANILLA_SUFFIX)
+
 # Display version
 LINEAGE_DISPLAY_VERSION := $(LINEAGE_VERSION)
