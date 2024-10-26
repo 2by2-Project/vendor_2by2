@@ -14,3 +14,9 @@ prebuilt_font {
     src: "sgm.ttf",
     product_specific: true,
 }
+
+prebuilt_font {
+    name: "sgl.ttf",
+    src: "sgl.ttf",
+    product_specific: true,
+}

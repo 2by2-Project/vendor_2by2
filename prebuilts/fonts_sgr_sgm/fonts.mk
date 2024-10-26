@@ -5,4 +5,5 @@
 
 PRODUCT_PACKAGES := \
     sgr.ttf \
-    sgm.ttf
+    sgm.ttf \
+    sgl.ttf
