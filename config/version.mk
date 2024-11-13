@@ -13,17 +13,23 @@
 # limitations under the License.
 
 CUSTOM_BUILD_TYPE ?= COMMUNITY
+CUSTOM_MAINTAINER ?= Unknown
 
-# Add suffix when building VANILLA edition
+# We supports VANILLA, but community builds only.
 ifeq ($(WITH_GMS),false)
-  VANILLA_SUFFIX := -VANILLA
+  ifeq ($(CUSTOM_BUILD_TYPE),OFFICIAL)
+    $(error Official builds must be GAPPS only.)
+  endif
+  CUSTOM_BUILD_TYPE := VANILLA
 endif
 
-# Internal version
-LINEAGE_VERSION := 2by2-Project-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)$(VANILLA_SUFFIX)
+# Maintainer props
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.2by2.buildtype=$(CUSTOM_BUILD_TYPE) \
+    ro.2by2.maintainer=$(CUSTOM_MAINTAINER)
 
-# Internal version (Lite)
-STATIX_VERSION := 2by2-Project-Lite-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(TARGET_PRODUCT)$(VANILLA_SUFFIX)
+# Internal version
+LINEAGE_VERSION := 2by2-Project-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)-$(CUSTOM_BUILD_TYPE)
 
 # Display version
 LINEAGE_DISPLAY_VERSION := $(LINEAGE_VERSION)
