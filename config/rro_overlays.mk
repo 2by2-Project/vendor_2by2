@@ -17,8 +17,7 @@ PRODUCT_PACKAGES += \
 
 # Standard Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/2by2/overlay/common \
-    vendor/2by2/overlay/themes/CustomIcons
+    vendor/2by2/overlay/common
 
 # Overlay defaults
 PRODUCT_COPY_FILES += \

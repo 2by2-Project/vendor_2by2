@@ -9,6 +9,9 @@ include vendor/2by2/config/packages.mk
 # RRO Overlays
 include vendor/2by2/config/rro_overlays.mk
 
+# Themes
+include vendor/2by2/config/themes.mk
+
 # Bootanimation
 include vendor/2by2/config/bootanimation.mk
 
