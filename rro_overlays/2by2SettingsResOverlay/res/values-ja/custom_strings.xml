@@ -8,6 +8,11 @@
     <string name="prevent_ringing_option_cycle">サイクルスルーモード</string>
     <string name="prevent_ringing_option_cycle_summary">ON (サイクルスルーモード)</string>
 
-    <!-- About device screen, build maintainer -->
-    <string name="build_maintainer">ビルドメンテナ</string>
+    <!-- Use as Screenshot key combo -->
+    <string name="gesture_prevent_ringing_screenshot_switch_title">マナーモードの代わりにスクリーンショットとして使用</string>
+    <string name="gesture_prevent_ringing_screenshot_switch_summary">この設定がオンになっている場合、ジェスチャーによるマナーモードの切り替えはご利用いただけません</string>
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">スワイプでスクリーンショット</string>
+    <string name="swipe_to_screenshot_summary">3 本の指で下にスワイプしてスクリーンショットを撮影します</string>
 </resources>

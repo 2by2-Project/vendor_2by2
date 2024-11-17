@@ -8,6 +8,6 @@
     <string name="lineageos_app_name" translatable="false">2byLauncher</string>
 
     <!-- QuickSpace: QuickEvent: Device Intro Event -->
-    <string name="quick_event_rom_intro_welcome">Welcome to 2by2 Project!</string>
-    <string name="quick_event_rom_intro_welcome_ext">A new era, an era of 2by2</string>
+    <string name="quick_event_rom_intro_welcome">2by2 Project へようこそ!</string>
+    <string name="quick_event_rom_intro_welcome_ext">新しい時代、2by2の時代</string>
 </resources>
