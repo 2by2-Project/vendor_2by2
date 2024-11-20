@@ -1,0 +1,22 @@
+<!--
+     Copyright (C) 2024 The 2by2 Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.overlay.font.googlesans"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <overlay
+        android:targetPackage="android"
+        android:category="android.theme.customization.font"
+        android:priority="1" />
+
+    <application
+        android:hasCode="false"
+        android:label="@string/font_googlesans_overlay">
+        <meta-data
+            android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
+            android:value="google-sans,google-sans-medium" />
+    </application>
+</manifest>

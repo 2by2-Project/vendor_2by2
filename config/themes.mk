@@ -11,3 +11,10 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Icon shapes
 PRODUCT_PACKAGES += \
     IconShapeRoundedRectRoundedOverlay
+
+# Fonts
+PRODUCT_PACKAGES += \
+    FontGoogleSansOverlay
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/2by2/prebuilts/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
