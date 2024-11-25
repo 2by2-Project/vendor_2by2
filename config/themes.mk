@@ -16,5 +16,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FontGoogleSansOverlay
 
+PRODUCT_PACKAGES += \
+    2by2HeadlineSpecialFontOverlay
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/2by2/prebuilts/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
