@@ -19,6 +19,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/2by2/overlay/common
 
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    vendor/2by2/overlay/common
+
 # Overlay defaults
 PRODUCT_COPY_FILES += \
     vendor/2by2/rro_overlays/config-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/overlay/config/config.xml \
