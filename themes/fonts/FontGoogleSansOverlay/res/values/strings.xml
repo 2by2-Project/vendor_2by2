@@ -1,8 +1,0 @@
-<!--
-     Copyright (C) 2024 The 2by2 Project
-     SPDX-License-Identifier: Apache-2.0
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Headline / Body font Google Sans overlay -->
-    <string name="font_googlesans_overlay" translatable="false">Google Sans</string>
-</resources>

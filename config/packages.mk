@@ -4,31 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Gapps
-WITH_GMS ?= true
-
-# GMS Flags
-TARGET_USES_MINI_GAPPS ?= false
-TARGET_USES_PICO_GAPPS ?= false
-
-TARGET_SUPPORTS_QUICK_TAP ?= true
-TARGET_USES_PIXEL_LAUNCHER ?= false
-FORCE_AOSP_DIALER ?= true
-FORCE_AOSP_CONTACTS ?= true
-
-ifeq ($(WITH_GMS),true)
-  ifeq ($(TARGET_USES_PICO_GAPPS),true)
-    $(call inherit-product, vendor/gms/gms_pico.mk)
-  else ifeq ($(TARGET_USES_MINI_GAPPS),true)
-    $(call inherit-product, vendor/gms/gms_mini.mk)
-  else
-    $(call inherit-product, vendor/gms/gms_full.mk)
-  endif
-  PRODUCT_PACKAGES += GoogleConfigOverlay
-  TARGET_GAPPS_ARCH ?= arm64
-  $(call inherit-product, vendor/gapps/$(TARGET_GAPPS_ARCH)/$(TARGET_GAPPS_ARCH)-vendor.mk)
-endif
-
 # Some prebuilt goodies
 TARGET_INCLUDE_EXTRA_APPS ?= true
 
@@ -40,23 +15,4 @@ endif
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
   PRODUCT_PACKAGES += su
   PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += system/xbin/su
-endif
-
-# SH apps
-TARGET_SHIPS_SHAPPS ?= false
-
-ifeq ($(TARGET_SHIPS_SHAPPS), true)
-  $(call inherit-product-if-exists, vendor/sh-fwk/config.mk)
-endif
-
-# Face Unlock
-ifeq ($(TARGET_SUPPORTS_64_BIT_APPS),true)
-PRODUCT_PACKAGES += \
-    FaceUnlock
-
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    ro.face.sense_service=true
-
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
 endif

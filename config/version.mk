@@ -14,17 +14,10 @@
 
 CUSTOM_MAINTAINER ?= Unknown
 
-# Add suffix when building VANILLA edition
-ifeq ($(WITH_GMS),false)
-  VANILLA_SUFFIX := -VANILLA
-endif
-
-# Maintainer props
+# Maintainer & Version props
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.2by2.maintainer=$(CUSTOM_MAINTAINER)
+    ro.2by2.maintainer=$(CUSTOM_MAINTAINER) \
+    ro.2by2.version=$(CUSTOM_VERSION_PROP)
 
 # Internal version
-LINEAGE_VERSION := 2by2-Project-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)$(VANILLA_SUFFIX)
-
-# Display version
-LINEAGE_DISPLAY_VERSION := $(LINEAGE_VERSION)
+CUSTOM_VERSION := 2by2-Project_$(CUSTOM_BUILD)-$(CUSTOM_PLATFORM_VERSION)-$(CUSTOM_BUILD_DATE)

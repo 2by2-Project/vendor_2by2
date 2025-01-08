@@ -12,10 +12,6 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     IconShapeRoundedRectRoundedOverlay
 
-# Fonts
-PRODUCT_PACKAGES += \
-    FontGoogleSansOverlay
-
 PRODUCT_PACKAGES += \
     2by2HeadlineSpecialFontOverlay
 
