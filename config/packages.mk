@@ -16,3 +16,7 @@ ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
   PRODUCT_PACKAGES += su
   PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += system/xbin/su
 endif
+
+# Launcher3
+PRODUCT_PACKAGES += \
+    Launcher3QuickStep
