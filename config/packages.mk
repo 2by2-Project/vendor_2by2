@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Reduce gapps
+TARGET_USES_MINI_GAPPS ?= true
+
 # Some prebuilt goodies
 TARGET_INCLUDE_EXTRA_APPS ?= true
 
