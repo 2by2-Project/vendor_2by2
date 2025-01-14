@@ -7,6 +7,11 @@
 # Reduce gapps
 TARGET_USES_MINI_GAPPS ?= true
 
+ifeq ($(TARGET_USES_MINI_GAPPS),true)
+# Choose AOSP Dialer to default
+PRODUCT_PACKAGES += 2by2DefaultDialerOverlay
+endif
+
 # Some prebuilt goodies
 TARGET_INCLUDE_EXTRA_APPS ?= true
 
