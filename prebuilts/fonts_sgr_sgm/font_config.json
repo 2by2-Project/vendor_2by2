@@ -1,0 +1,71 @@
+[
+    {
+        "lang": "ja",
+        "fonts": [
+            {
+                "file": "../../product/fonts/sgl.ttf",
+                "postScriptName": "ShinGo-Light",
+                "weight": "100",
+                "style": "normal",
+                "index": "0"
+            },
+            {
+                "file": "../../product/fonts/sgl.ttf",
+                "postScriptName": "ShinGo-Light",
+                "weight": "200",
+                "style": "normal",
+                "index": "0"
+            },
+            {
+                "file": "../../product/fonts/sgl.ttf",
+                "postScriptName": "ShinGo-Light",
+                "weight": "300",
+                "style": "normal",
+                "index": "0"
+            },
+            {
+                "file": "../../product/fonts/sgr.ttf",
+                "postScriptName": "ShinGo-Regular",
+                "weight": "400",
+                "style": "normal",
+                "index": "0"
+            },
+            {
+                "file": "../../product/fonts/sgr.ttf",
+                "postScriptName": "ShinGo-Regular",
+                "weight": "500",
+                "style": "normal",
+                "index": "0"
+            },
+            {
+                "file": "../../product/fonts/sgm.ttf",
+                "postScriptName": "ShinGo-Medium",
+                "weight": "600",
+                "style": "normal",
+                "index": "0"
+            },
+            {
+                "file": "../../product/fonts/sgm.ttf",
+                "postScriptName": "ShinGo-Medium",
+                "weight": "700",
+                "style": "normal",
+                "index": "0"
+            },
+            {
+                "file": "../../product/fonts/sgm.ttf",
+                "postScriptName": "ShinGo-Medium",
+                "weight": "800",
+                "style": "normal",
+                "index": "0"
+            },
+            {
+                "file": "../../product/fonts/sgm.ttf",
+                "postScriptName": "ShinGo-Medium",
+                "weight": "900",
+                "style": "normal",
+                "index": "0"
+            }
+        ],
+        "priority": -99
+    }
+]

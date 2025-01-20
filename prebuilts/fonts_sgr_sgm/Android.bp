@@ -20,3 +20,13 @@ prebuilt_font {
     src: "sgl.ttf",
     product_specific: true,
 }
+
+filegroup {
+    name: "sgl-sgr-sgm-fonts",
+    srcs: ["font_config.json"],
+    required: [
+        "sgr.ttf",
+        "sgm.ttf",
+        "sgl.ttf",
+    ],
+}
