@@ -24,7 +24,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.2by2.maintainer=$(CUSTOM_MAINTAINER)
 
 # Internal version
-LINEAGE_VERSION := 2by2-Project-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)$(VANILLA_SUFFIX)
+LINEAGE_VERSION := 2by2-Project-$(PLATFORM_VERSION)-$(shell date -u +%Y%m%d_%H%M%S)-$(LINEAGE_BUILD)$(VANILLA_SUFFIX)
 
 # Display version
 LINEAGE_DISPLAY_VERSION := $(LINEAGE_VERSION)
