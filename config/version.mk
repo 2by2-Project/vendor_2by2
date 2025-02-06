@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+CUSTOM_VERSION := fifteen
 CUSTOM_MAINTAINER ?= Unknown
 
 # Add suffix when building VANILLA edition
@@ -21,6 +22,7 @@ endif
 
 # Maintainer props
 PRODUCT_SYSTEM_PROPERTIES += \
+    ro.2by2.version=$(CUSTOM_VERSION) \
     ro.2by2.maintainer=$(CUSTOM_MAINTAINER)
 
 # Internal version
