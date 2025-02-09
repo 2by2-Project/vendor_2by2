@@ -15,4 +15,12 @@
     <!-- Swipe to screenshot -->
     <string name="three_finger_gesture">スワイプでスクリーンショット</string>
     <string name="three_finger_gesture_summary">3 本の指で下にスワイプしてスクリーンショットを撮影します</string>
+
+    <!-- Long press navbar to search -->
+    <string name="navbar_long_press_gesture_title">長押しして検索する</string>
+    <string name="navbar_long_press_gesture_summary">ナビゲーション ハンドルを長押しすると、画面上で検索が起動します。</string>
+
+    <!-- Circle to search -->
+    <string name="search_all_entrypoints_enabled_title">かこって検索</string>
+    <string name="search_all_entrypoints_enabled_summary">画面下部のハンドルを長押しして、検索対象を円で囲むかハイライト表示します</string>
 </resources>
