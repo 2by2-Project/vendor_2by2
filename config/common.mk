@@ -36,9 +36,6 @@ ifeq ($(TARGET_IS_PIXEL),true)
 $(call inherit-product, vendor/2by2/config/pixel.mk)
 endif
 
-# Font
-$(call inherit-product, vendor/2by2/prebuilts/fonts_sgr_sgm/fonts.mk)
-
 # Avoid artifact path requirements
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     $(strip $(shell cat vendor/2by2/config/artifact_path_requirement_allowed_list.txt))

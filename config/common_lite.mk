@@ -12,9 +12,6 @@ include vendor/2by2/config/bootanimation.mk
 # Bootanimation
 include vendor/2by2/config/version.mk
 
-# Font
-$(call inherit-product, vendor/2by2/prebuilts/fonts_sgr_sgm/fonts.mk)
-
 # Conditionally enable blur
 TARGET_USES_BLUR ?= true
 
