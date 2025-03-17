@@ -12,10 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, build/target/product/aosp_x86.mk)
+$(call inherit-product, build/target/product/aosp_x86_64.mk)
 
-include vendor/yaap/build/target/product/yaap_generic_target.mk
+include vendor/2by2/build/target/product/generic_target.mk
 
-TARGET_USES_64_BIT_BINDER := true
-
-PRODUCT_NAME := yaap_x86
+PRODUCT_NAME := x86_64

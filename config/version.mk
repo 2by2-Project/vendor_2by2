@@ -13,32 +13,32 @@
 # limitations under the License.
 
 # Versioning System
-BUILD_DATE := $(shell date +%Y%m%d)
-TARGET_PRODUCT_SHORT := $(subst yaap_,,$(YAAP_BUILD))
+BUILD_DATE := $(shell date +%Y%m%d-%H%M%S)
+TARGET_PRODUCT_SHORT := $(CUSTOM_BUILD)
 
-YAAP_BUILDTYPE ?= HOMEMADE
-YAAP_BUILD_VERSION := $(PLATFORM_VERSION)
-YAAP_VERSION := $(YAAP_BUILD_VERSION)-$(YAAP_BUILDTYPE)-$(TARGET_PRODUCT_SHORT)-$(BUILD_DATE)
-ROM_FINGERPRINT := YAAP/$(PLATFORM_VERSION)/$(TARGET_PRODUCT_SHORT)/$(shell date -u +%H%M)
+CUSTOM_BUILDTYPE ?= HOMEMADE
+CUSTOM_BUILD_VERSION := Vanadium
+CUSTOM_VERSION := $(CUSTOM_BUILD_VERSION)-$(TARGET_PRODUCT_SHORT)-ota-prod-$(BUILD_DATE)
+ROM_FINGERPRINT := 2by2-Project/$(PLATFORM_VERSION)/$(TARGET_PRODUCT_SHORT)/$(shell date -u +%H%M)
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-  ro.yaap.build.version=$(YAAP_BUILD_VERSION) \
-  ro.yaap.build.date=$(BUILD_DATE) \
-  ro.yaap.buildtype=$(YAAP_BUILDTYPE) \
-  ro.yaap.fingerprint=$(ROM_FINGERPRINT) \
-  ro.yaap.version=$(YAAP_VERSION) \
-  ro.yaap.device=$(YAAP_BUILD) \
-  ro.modversion=$(YAAP_VERSION)
+  ro.2by2.build.version=$(CUSTOM_BUILD_VERSION) \
+  ro.2by2.build.date=$(BUILD_DATE) \
+  ro.2by2.buildtype=$(CUSTOM_BUILDTYPE) \
+  ro.2by2.fingerprint=$(ROM_FINGERPRINT) \
+  ro.2by2.version=$(CUSTOM_VERSION) \
+  ro.2by2.device=$(CUSTOM_BUILD) \
+  ro.modversion=$(CUSTOM_VERSION)
 
 # Signing
 ifneq (eng,$(TARGET_BUILD_VARIANT))
-ifneq (,$(wildcard vendor/yaap/signing/keys/releasekey.pk8))
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/yaap/signing/keys/releasekey
+ifneq (,$(wildcard vendor/2by2/signing/keys/releasekey.pk8))
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/2by2/signing/keys/releasekey
 ifneq ($(TARGET_NO_OEM_UNLOCK),true)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.oem_unlock_supported=1
 endif
 endif
-ifneq (,$(wildcard vendor/yaap/signing/keys/otakey.x509.pem))
-PRODUCT_OTA_PUBLIC_KEYS := vendor/yaap/signing/keys/otakey.x509.pem
+ifneq (,$(wildcard vendor/2by2/signing/keys/otakey.x509.pem))
+PRODUCT_OTA_PUBLIC_KEYS := vendor/2by2/signing/keys/otakey.x509.pem
 endif
 endif

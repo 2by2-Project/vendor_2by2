@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2018-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,7 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/yaap/config/common.mk)
+$(call inherit-product, build/target/product/aosp_arm64.mk)
 
-# Allow building otatools
-TARGET_FORCE_OTA_PACKAGE := true
+include vendor/2by2/build/target/product/generic_target.mk
+
+PRODUCT_NAME := arm64

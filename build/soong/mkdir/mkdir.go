@@ -58,7 +58,7 @@ func (this *Mkdir) AndroidMkEntries() []android.AndroidMkEntries {
 		Class: "FAKE",
 		// Need at least one output file in order for this to take effect.
 		OutputFile: android.OptionalPathForPath(this.output),
-		Include: "vendor/yaap/build/core/mkdir.mk",
+		Include: "vendor/2by2/build/core/mkdir.mk",
 		ExtraEntries: []android.AndroidMkExtraEntriesFunc{
 			func(ctx android.AndroidMkExtraEntriesContext, entries *android.AndroidMkEntries) {
 				entries.SetString("LOCAL_SOONG_INSTALL_DIR", this.installDir.String())

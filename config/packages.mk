@@ -1,7 +1,7 @@
 PRODUCT_PACKAGES += \
     ThemePicker \
 
-# Extra tools in YAAP
+# Extra tools in 2by2
 PRODUCT_PACKAGES += \
     bash \
     curl \
@@ -31,7 +31,7 @@ PRODUCT_PACKAGES += \
     mkfs.ntfs \
     mount.ntfs
 
-# YAAP packages
+# 2by2 packages
 PRODUCT_PACKAGES += \
     Aperture \
     AvatarPicker \

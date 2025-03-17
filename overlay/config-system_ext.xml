@@ -15,6 +15,6 @@
 -->
 
 <config>
-    <overlay package="android.yaap.certifiedprops.overlay" enabled="true" />
-    <overlay package="android.yaap.deviceconfig.overlay" enabled="true" />
+    <overlay package="jp.project2by2.certifiedprops.overlay" enabled="true" />
+    <overlay package="jp.project2by2.deviceconfig.overlay" enabled="true" />
 </config>
