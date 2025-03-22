@@ -117,6 +117,10 @@ PRODUCT_PACKAGES += \
     2by2UpdaterOverlay \
     CertifiedKeyboxOverlayStub
 
+# Allow to disable camera sounds optionally
+PRODUCT_PACKAGES += \
+    DisableCameraSoundOverlay
+
 ifneq ($(TARGET_BUILD_GAPPS),true)
 PRODUCT_PACKAGES += \
     DialerOverlayVanilla \
