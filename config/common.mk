@@ -138,6 +138,9 @@ include vendor/2by2/config/packages.mk
 # Versioning
 include vendor/2by2/config/version.mk
 
+# Bootanimation
+include vendor/2by2/config/bootanimation.mk
+
 # ART
 
 # SystemUI
