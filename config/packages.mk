@@ -125,3 +125,6 @@ PRODUCT_BOOT_JARS += \
 
 # Motorola apps
 $(call inherit-product-if-exists, vendor/motorola/apps/apps-vendor.mk)
+
+# Extra apps
+$(call inherit-product-if-exists, vendor/2by2-prebuilt-apps/apps.mk)
