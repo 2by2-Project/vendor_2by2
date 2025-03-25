@@ -1,3 +1,2 @@
 signing/keys/*
 !signing/keys/BUILD
-apps
