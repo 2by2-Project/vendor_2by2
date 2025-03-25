@@ -122,3 +122,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     tcmiface \
     telephony-ext
+
+# Motorola apps
+$(call inherit-product-if-exists, vendor/motorola/apps/apps-vendor.mk)

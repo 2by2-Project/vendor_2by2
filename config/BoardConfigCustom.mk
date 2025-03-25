@@ -5,3 +5,5 @@ include hardware/qcom-caf/common/BoardConfigQcom.mk
 endif
 
 include vendor/2by2/config/BoardConfigSoong.mk
+
+-include vendor/motorola/additional/BoardConfigVendor.mk
