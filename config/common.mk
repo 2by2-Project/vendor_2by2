@@ -141,6 +141,9 @@ include vendor/2by2/config/version.mk
 # Bootanimation
 include vendor/2by2/config/bootanimation.mk
 
+# Sounds
+include vendor/2by2/config/sounds.mk
+
 # ART
 
 # SystemUI
