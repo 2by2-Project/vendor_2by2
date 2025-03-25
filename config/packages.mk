@@ -43,7 +43,7 @@ PRODUCT_PACKAGES += \
     TrichromeWebView \
     TrichromeChrome \
     Twelve \
-    YASR \
+    Recorder \
     Seedvault \
     OmniJaws \
     OpenDelta \
