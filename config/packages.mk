@@ -123,3 +123,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     tcmiface \
     telephony-ext
+
+# Extra apps
+$(call inherit-product-if-exists, vendor/2by2-prebuilt-apps/apps.mk)
