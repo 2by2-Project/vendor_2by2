@@ -32,8 +32,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Signing
 ifneq (eng,$(TARGET_BUILD_VARIANT))
-ifneq (,$(wildcard vendor/2by2/signing/keys/releasekey.pk8))
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/2by2/signing/keys/releasekey
+ifneq (,$(wildcard vendor/2by2-example-keys/releasekey.pk8))
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/2by2-example-keys/releasekey
 ifneq ($(TARGET_NO_OEM_UNLOCK),true)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.oem_unlock_supported=1
 endif
