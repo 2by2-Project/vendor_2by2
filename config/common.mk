@@ -1,3 +1,5 @@
+TARGET_BUILD_GAPPS ?= true
+
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.debug.alloc=0 \
     keyguard.no_require_sim=true \
