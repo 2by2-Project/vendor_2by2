@@ -5,5 +5,5 @@ PRODUCT_COPY_FILES += \
 # Set default sounds
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.alarm_alert=Birdland.m4a \
-    ro.config.notification_sound=Tethys.ogg \
+    ro.config.notification_sound=Hello.ogg \
     ro.config.ringtone=Princess_of_Light.ogg
