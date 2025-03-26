@@ -91,8 +91,20 @@
     <!-- Whether or not to enable the lock screen entry point for the QR code scanner. -->
     <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
 
+    <!-- Name of a font family to use for body text. -->
+    <string name="config_bodyFontFamily" translatable="false">Rookery-Regular</string>
+
+    <!-- Name of a font family to use for medium body text. -->
+    <string name="config_bodyFontFamilyMedium" translatable="false">Rookery-Regular</string>
+
+    <!-- Name of a font family to use for headlines. If empty, falls back to platform default -->
+    <string name="config_headlineFontFamily" translatable="false">Rookery-Regular</string>
+
+    <!-- Name of the font family used for system surfaces where the font should use medium weight -->
+    <string name="config_headlineFontFamilyMedium" translatable="false">Rookery-Regular</string>
+
     <!-- Name of the font family to use in the default lockscreen clock -->
-    <string name="config_clockFontFamily" translatable="false">google-sans-clock</string>
+    <string name="config_clockFontFamily" translatable="false">moto_time</string>
 
     <!-- Disable stock components if installed -->
     <string-array name="config_globallyDisabledComponents" translatable="false">
