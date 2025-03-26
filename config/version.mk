@@ -12,16 +12,20 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+PRODUCT_VERSION_MAJOR := 1
+PRODUCT_VERSION_MINOR := 0
+CUSTOM_BUILD_VERSION_CODENAME := Vanadium
+
 # Versioning System
 BUILD_DATE := $(shell date +%Y%m%d-%H%M%S)
 TARGET_PRODUCT_SHORT := $(CUSTOM_BUILD)
-
 CUSTOM_BUILDTYPE ?= HOMEMADE
-CUSTOM_BUILD_VERSION := Vanadium
-CUSTOM_VERSION := $(CUSTOM_BUILD_VERSION)-$(TARGET_PRODUCT_SHORT)-ota-prod-$(BUILD_DATE)
+CUSTOM_BUILD_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)
+CUSTOM_VERSION := $(CUSTOM_BUILD_VERSION_CODENAME)-$(TARGET_PRODUCT_SHORT)-ota-prod-$(BUILD_DATE)
 ROM_FINGERPRINT := 2by2-Project/$(PLATFORM_VERSION)/$(TARGET_PRODUCT_SHORT)/$(shell date -u +%H%M)
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+  ro.2by2.build.version.codename=$(CUSTOM_BUILD_VERSION_CODENAME) \
   ro.2by2.build.version=$(CUSTOM_BUILD_VERSION) \
   ro.2by2.build.date=$(BUILD_DATE) \
   ro.2by2.buildtype=$(CUSTOM_BUILDTYPE) \
