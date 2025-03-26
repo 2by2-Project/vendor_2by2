@@ -104,6 +104,10 @@ PRODUCT_PACKAGES += \
     SettingsOverlay \
     SettingsProviderOverlay \
     SystemUIOverlay
+
+PRODUCT_PACKAGES += \
+    2by2SetupWizardOverlay
+
 ifneq ($(TARGET_BUILD_GAPPS),true)
 PRODUCT_PACKAGES += \
     DialerOverlayVanilla \
@@ -112,6 +116,10 @@ PRODUCT_PACKAGES += \
     OpenDeltaOverlayVanilla \
     SettingsProviderOverlayVanilla \
     ThemePickerOverlayVanilla
+
+PRODUCT_PACKAGES += \
+    2by2LineageSetupWizardOverlay
+
 # Include LatinIME dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/2by2/overlay-vanilla/dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/2by2/overlay-vanilla/packages
