@@ -73,6 +73,11 @@ PRODUCT_COPY_FILES += \
     vendor/2by2/prebuilt/common/etc/permissions/custom-privapp-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/custom-privapp-permissions.xml \
     vendor/2by2/prebuilt/common/etc/permissions/custom-power-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/custom-power-whitelist.xml
 
+ifeq ($(TARGET_BUILD_GAPPS),true)
+PRODUCT_COPY_FILES += \
+    vendor/2by2/prebuilt/common/etc/default-permissions/default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions.xml
+endif
+
 # Cloned app exemption
 PRODUCT_COPY_FILES += \
     vendor/2by2/prebuilt/common/etc/sysconfig/preinstalled-packages-platform-custom-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-custom-product.xml
