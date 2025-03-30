@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 The 2by2 Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Application name -->
+    <string name="lineageos_app_name" translatable="false">2byLauncher</string>
+
+    <!-- QuickSpace: QuickEvent: Device Intro Event -->
+    <string name="quick_event_rom_intro_welcome">2by2 Project へようこそ!</string>
+    <string name="quick_event_rom_intro_welcome_ext">新しい時代、2by2の時代</string>
+
+    <!-- Recents -->
+    <string name="action_lens">レンズ</string>
+
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">ダブルタップでスリープ</string>
+    <string name="pref_dt_gesture_summary">画面の何もない場所をダブルタップしてスリープ状態にします</string>
+</resources>
