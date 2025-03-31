@@ -93,16 +93,6 @@
         launcher:packageName="com.google.android.googlequicksearchbox"
         launcher:className="com.google.android.apps.gsa.staticplugins.smartspace.widget.SmartspaceWidgetProvider" />
 
-    <!-- Search bar -->
-    <appwidget
-        launcher:packageName="com.google.android.googlequicksearchbox"
-        launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
-        launcher:screen="0"
-        launcher:x="0"
-        launcher:y="-2"
-        launcher:spanX="5"
-        launcher:spanY="1" />
-
     <!-- Google Folder -->
     <folder
         launcher:title="@string/google_folder_title"
