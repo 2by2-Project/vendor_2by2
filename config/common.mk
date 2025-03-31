@@ -114,6 +114,7 @@ PRODUCT_PACKAGES += \
     SystemUIOverlay
 
 PRODUCT_PACKAGES += \
+    2by2HeadlineSpecialFontOverlay \
     2by2SetupWizardOverlay
 
 ifneq ($(TARGET_BUILD_GAPPS),true)
