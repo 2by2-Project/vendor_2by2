@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 The 2by2 Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- OTA App -->
+    <string name="custom_update_settings_title">2by2 アップデーター</string>
+    <string name="custom_update_settings_summary">最新の ROM バージョンをチェックします</string>
+
+    <!-- 2by2 Version -->
+    <string name="custom_version">2by2 Project バージョン</string>
+
+    <!-- 2by2 Changelog -->
+    <string name="custom_changelog_title">更新履歴</string>
+    <string name="custom_changelog_summary">これまでのシステムアップデートを確認できます</string>
+
+    <!-- About YAAP -->
+    <string name="about_2by2_title">2by2 Projectについて...</string>
+    <string name="about_2by2_summary">私たちのチーム、ソースコード、Telegramなど</string>
+
+    <!-- YASP Import -->
+
+    <!-- Categories -->
+    <string name="misc_title">その他</string>
+    <string name="quicksettings_title">クイック設定パネル</string>
+    <string name="statusbar_title">ステータスバー</string>
+    <string name="on_call_flashlight_category">着信時のライト点灯</string>
+    <string name="notification_flashlight_category">通知受信時のライト点灯</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">リセット</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
+    <string name="default_string">デフォルト</string>
+    <string name="disabled">無効</string>
+    <string name="failure">失敗</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">カラーピッカー</string>
+    <string name="press_color_to_apply">下の色をタップして適用します</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
+    <string name="hex_check_button_text">プレビュー</string>
+    <string name="hex_reset_button_text">リセット</string>
+    <string name="set">決定</string>
+    <string name="color_default">デフォルト</string>
+    <string name="color_right_arrow" translatable="false">"→"</string>
+    <string name="color_down_arrow" translatable="false">"↓"</string>
+    <string name="longpress_info">長押しして色を保存します</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">ロック画面に詳細な充電情報を表示する</string>
+    <string name="lockscreen_battery_info_summary">充電中に電圧やバッテリーの温度などを表示します</string>
+
+    <!-- QS footer text -->
+    <string name="qs_footer_text_show_title">クイック設定下部にテキストを表示</string>
+    <string name="qs_footer_text_string_title">表示するテキスト</string>
+    <string name="custom_qs_footer_text_string_summary">デフォルトの「2by2 Project」表示を使用する</string>
+
+    <!-- About -->
+    <string name="about_title">2by2 Projectについて</string>
+    <string name="about_team_category">私たちのチーム</string>
+    <string name="about_external_category">外部リンク</string>
+    <string name="about_dev_title">創設者 / リード開発者</string>
+    <string name="about_dev2_title">貢献者</string>
+    <string name="about_dev3_title">貢献者</string>
+    <string name="maintainer">デバイス メンテナー</string>
+    <string name="kernel">カーネル メンテナー</string>
+    <string name="about_website_title">公式サイト</string>
+    <string name="about_website_summary">私たちの公式サイトをチェックしてください</string>
+    <string name="about_website_link">https://project2by2.jp/ja</string>
+    <string name="about_tg_title">Telegram グループ</string>
+    <string name="about_tg_summary">コミュニティの Telegram グループで話しましょう</string>
+    <string name="about_git_title">ソースコード</string>
+    <string name="about_git_summary">GitHub ソースコードを開きます</string>
+    <string name="about_phone_title">デバイス情報</string>
+    <string name="about_phone_summary">システム情報を開きます</string>
+    <string name="designer_title">デザイナー</string>
+    <string name="smm_title">ソーシャルメディアマネージャー</string>
+</resources>
