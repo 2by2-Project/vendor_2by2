@@ -1,4 +1,4 @@
-CUSTOM_FASTBOOT_PACKAGE := $(PRODUCT_OUT)/$(CUSTOM_BUILD)-img.zip
+CUSTOM_FASTBOOT_PACKAGE := $(PRODUCT_OUT)/2by2-Project-$(subst ota,fastboot,$(CUSTOM_VERSION)).zip
 
 .PHONY: updatepackage
 updatepackage:
