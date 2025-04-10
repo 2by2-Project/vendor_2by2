@@ -51,6 +51,10 @@ PRODUCT_PACKAGES += \
     Panic \
     LMOFreeform
 
+# 2by2 Wallpaper app
+PRODUCT_PACKAGES += \
+    2byWallpapers
+
 # TextClassifier
 PRODUCT_PACKAGES += \
     libtextclassifier_annotator_en_model \
