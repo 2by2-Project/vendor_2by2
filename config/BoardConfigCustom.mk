@@ -6,4 +6,4 @@ endif
 
 include vendor/2by2/config/BoardConfigSoong.mk
 
--include vendor/motorola/additional/BoardConfigVendor.mk
+-include vendor/motorola/apps/BoardConfigVendor.mk
