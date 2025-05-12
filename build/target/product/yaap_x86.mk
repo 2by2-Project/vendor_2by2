@@ -14,7 +14,7 @@
 
 $(call inherit-product, build/target/product/aosp_x86.mk)
 
-include vendor/yaap/build/target/product/yaap_generic_target.mk
+include vendor/2by2/build/target/product/yaap_generic_target.mk
 
 TARGET_USES_64_BIT_BINDER := true
 

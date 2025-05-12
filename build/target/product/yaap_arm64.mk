@@ -14,6 +14,6 @@
 
 $(call inherit-product, build/target/product/aosp_arm64.mk)
 
-include vendor/yaap/build/target/product/yaap_generic_target.mk
+include vendor/2by2/build/target/product/yaap_generic_target.mk
 
 PRODUCT_NAME := yaap_arm64
