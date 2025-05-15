@@ -217,6 +217,10 @@ PRODUCT_HOST_PACKAGES += \
     signapk \
     brotli
 
+# Enable Expressive Settings UI
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    is_expressive_design_enabled=true
+
 # Themes
 $(call inherit-product, vendor/themes/common.mk)
 
