@@ -40,6 +40,12 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
   ro.2by2.device=$(CUSTOM_BUILD) \
   ro.modversion=$(CUSTOM_VERSION)
 
+# Device info
+CUSTOM_PROCESSOR_INFO ?= Unknown
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+  persist.sys.2by2_processor_info=$(CUSTOM_PROCESSOR_INFO)
+
 # Signing
 ifneq (eng,$(TARGET_BUILD_VARIANT))
 ifneq (,$(wildcard vendor/2by2/signing/keys/releasekey.pk8))
