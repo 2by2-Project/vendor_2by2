@@ -30,6 +30,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.2by2.build.version.codename=$(CUSTOM_BUILD_VERSION_CODENAME) \
     ro.2by2.build.version=$(CUSTOM_BUILD_VERSION)
 
+# Device info
+CUSTOM_PROCESSOR_INFO ?= Unknown
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.sys.2by2_processor_info=$(subst $() ,_,$(CUSTOM_PROCESSOR_INFO))
+
 # Internal version
 LINEAGE_VERSION := 2by2-Project-$(PLATFORM_VERSION)-$(shell date -u +%Y%m%d_%H%M%S)-$(LINEAGE_BUILD)$(VANILLA_SUFFIX)
 
