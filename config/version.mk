@@ -44,7 +44,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 CUSTOM_PROCESSOR_INFO ?= Unknown
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-  persist.sys.2by2_processor_info=$(CUSTOM_PROCESSOR_INFO)
+  persist.sys.2by2_processor_info=$(subst $() ,_,$(CUSTOM_PROCESSOR_INFO))
 
 # Signing
 ifneq (eng,$(TARGET_BUILD_VARIANT))
