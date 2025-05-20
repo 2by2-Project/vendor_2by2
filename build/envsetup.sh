@@ -77,3 +77,29 @@ function fixup_common_out_dir() {
         mkdir -p ${common_out_dir}
     fi
 }
+
+function eat()
+{
+    if [ "$OUT" ] ; then
+        ZIPPATH=`ls -tr "$OUT"/2by2-Project-*.zip | tail -1`
+        if [ ! -f $ZIPPATH ] ; then
+            echo "Nothing to eat"
+            return 1
+        fi
+        echo "Waiting for device..."
+        adb wait-for-device-recovery
+        echo "Found device"
+        if (adb shell getprop ro.2by2.device | grep -q "$CUSTOM_BUILD"); then
+            echo "Rebooting to sideload for install"
+            adb reboot sideload-auto-reboot
+            adb wait-for-sideload
+            adb sideload $ZIPPATH
+        else
+            echo "The connected device does not appear to be $CUSTOM_BUILD, run away!"
+        fi
+        return $?
+    else
+        echo "Nothing to eat"
+        return 1
+    fi
+}
