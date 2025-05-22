@@ -53,8 +53,8 @@ ifeq ($(TARGET_BUILD_VARIANT), user)
     PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 endif
 
-# YAAP private configuration - optional.
-#$(call inherit-product-if-exists, vendor/2by2-priv/product.mk)
+# 2by2 private configuration - optional.
+$(call inherit-product-if-exists, vendor/2by2-priv/product.mk)
 
 # Dedupe VNDK libraries with identical core variants
 TARGET_VNDK_USE_CORE_VARIANT := true
