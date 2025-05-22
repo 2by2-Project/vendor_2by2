@@ -114,7 +114,8 @@ PRODUCT_PACKAGES += \
     2by2HeadlineSpecialFontOverlay \
     2by2SettingsOverlay \
     2by2SetupWizardOverlay \
-    2by2UpdaterOverlay
+    2by2UpdaterOverlay \
+    CertifiedKeyboxOverlayStub
 
 ifneq ($(TARGET_BUILD_GAPPS),true)
 PRODUCT_PACKAGES += \

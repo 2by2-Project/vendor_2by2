@@ -17,4 +17,5 @@
 <config>
     <overlay package="android.yaap.certifiedprops.overlay" enabled="true" />
     <overlay package="android.yaap.deviceconfig.overlay" enabled="true" />
+    <overlay package="jp.project2by2.certifiedkeybox.overlay" enabled="true" />
 </config>
