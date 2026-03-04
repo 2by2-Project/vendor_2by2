@@ -21,7 +21,7 @@ ifeq ($(WITH_GMS),false)
 endif
 
 # Maintainer props
-PRODUCT_SYSTEM_PROPERTIES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     ro.2by2.version=$(CUSTOM_VERSION) \
     ro.2by2.maintainer=$(CUSTOM_MAINTAINER)
 
