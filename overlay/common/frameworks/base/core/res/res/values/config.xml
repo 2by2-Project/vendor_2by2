@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The 2by2 Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- The name of the package that will hold the wallet role by default. -->
+    <string name="config_defaultWallet" translatable="false">com.google.android.apps.walletnfcrel</string>
+
+    <!-- The name of the package that will hold the gallery role by default. -->
+    <string name="config_defaultGallery" translatable="false">com.google.android.apps.photos</string>
+
+    <!-- The name of the package that will hold the system gallery role. -->
+    <string name="config_systemGallery" translatable="false">com.google.android.apps.photos</string>
+
+    <!-- The component name, flattened to a string, for the default autofill service
+         to  enabled for an user. This service must be trusted, as it can be activated
+         without explicit consent of the user. If no autofill service with the
+          specified name exists on the device, autofill will be disabled by default.
+    -->
+    <string name="config_defaultAutofillService" translatable="false">com.google.android.gms/.autofill.service.AutofillService</string>
+</resources>

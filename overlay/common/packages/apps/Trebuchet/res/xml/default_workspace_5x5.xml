@@ -40,13 +40,19 @@
             launcher:className="jp.naver.line.android.activity.SplashActivity"/>
     </folder>
 
+    <!-- Browser (Gapps: Google Chrome | Vanilla: Lineage Jelly) -->
     <resolve
         launcher:container="-101"
         launcher:screen="3"
         launcher:x="3"
         launcher:y="0" >
         <favorite
+            launcher:packageName="org.lineageos.jelly"
+            launcher:className="org.lineageos.jelly.MainActivity" />
+        <favorite
             launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_BROWSER;end" />
+        <favorite
+            launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.BROWSABLE;end" />
         <favorite launcher:uri="http://www.example.com/" />
     </resolve>
 
@@ -77,6 +83,9 @@
             launcher:packageName="com.motorola.camera3"
             launcher:className="com.motorola.camera.Camera" />
         <favorite
+            launcher:packageName="com.motorola.camera5"
+            launcher:className="com.motorola.camera.Camera" />
+        <favorite
             launcher:packageName="com.google.android.GoogleCamera"
             launcher:className="com.android.camera.activity.CaptureActivity" />
     </resolve>
@@ -92,16 +101,6 @@
         launcher:spanY="1"
         launcher:packageName="com.google.android.googlequicksearchbox"
         launcher:className="com.google.android.apps.gsa.staticplugins.smartspace.widget.SmartspaceWidgetProvider" />
-
-    <!-- Search bar -->
-    <appwidget
-        launcher:packageName="com.google.android.googlequicksearchbox"
-        launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
-        launcher:screen="0"
-        launcher:x="0"
-        launcher:y="-2"
-        launcher:spanX="5"
-        launcher:spanY="1" />
 
     <!-- Google Folder -->
     <folder
