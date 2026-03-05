@@ -21,3 +21,5 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/2by2/prebuilts/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+
+$(call inherit-product, external/mejiro/fonts.mk)
