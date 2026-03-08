@@ -12,8 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-CUSTOM_VERSION := fifteen
+PRODUCT_VERSION_MAJOR := 1
+PRODUCT_VERSION_MINOR := 5b
+CUSTOM_BUILD_VERSION_CODENAME := Vanadium
 CUSTOM_MAINTAINER ?= Unknown
+
+# Versioning System
+CUSTOM_BUILD_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)
 
 # Add suffix when building VANILLA edition
 ifeq ($(WITH_GMS),false)
@@ -22,8 +27,8 @@ endif
 
 # Maintainer props
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.2by2.version=$(CUSTOM_VERSION) \
-    ro.2by2.maintainer=$(CUSTOM_MAINTAINER)
+    ro.2by2.build.version.codename=$(CUSTOM_BUILD_VERSION_CODENAME) \
+    ro.2by2.build.version=$(CUSTOM_BUILD_VERSION)
 
 # Internal version
 LINEAGE_VERSION := 2by2-Project-$(PLATFORM_VERSION)-$(shell date -u +%Y%m%d_%H%M%S)-$(LINEAGE_BUILD)$(VANILLA_SUFFIX)
