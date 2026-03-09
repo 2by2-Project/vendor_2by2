@@ -17,16 +17,10 @@ FORCE_AOSP_DIALER ?= true
 FORCE_AOSP_CONTACTS ?= true
 
 ifeq ($(WITH_GMS),true)
-  #ifeq ($(TARGET_USES_PICO_GAPPS),true)
-  #  $(call inherit-product, vendor/gms/gms_pico.mk)
-  #else ifeq ($(TARGET_USES_MINI_GAPPS),true)
-  #  $(call inherit-product, vendor/gms/gms_mini.mk)
-  #else
-  #  $(call inherit-product, vendor/gms/gms_full.mk)
-  #endif
   PRODUCT_PACKAGES += GoogleConfigOverlay
   TARGET_GAPPS_ARCH ?= arm64
   $(call inherit-product, vendor/gapps/$(TARGET_GAPPS_ARCH)/$(TARGET_GAPPS_ARCH)-vendor.mk)
+  $(call inherit-product, vendor/google/gms/gms-vendor.mk)
 endif
 
 # Some prebuilt goodies
