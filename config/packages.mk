@@ -20,7 +20,9 @@ ifeq ($(WITH_GMS),true)
   PRODUCT_PACKAGES += GoogleConfigOverlay
   TARGET_GAPPS_ARCH ?= arm64
   $(call inherit-product, vendor/gapps/$(TARGET_GAPPS_ARCH)/$(TARGET_GAPPS_ARCH)-vendor.mk)
-  $(call inherit-product, vendor/google/gms/gms-vendor.mk)
+  ifneq ($(TARGET_USES_MINI_GAPPS),true)
+    $(call inherit-product, vendor/google/gms/gms-vendor.mk)
+  endif
 endif
 
 # Some prebuilt goodies
