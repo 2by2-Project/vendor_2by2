@@ -56,5 +56,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/2by2-crowdin/overlay
 # Keys
 -include vendor/2by2-example-keys/keys.mk
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/2by2/config/privapp-permissions-2by2-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-2by2-product.xml
+
 # Certification
 $(call inherit-product-if-exists, vendor/certification/config.mk)
