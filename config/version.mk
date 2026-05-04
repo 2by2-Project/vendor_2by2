@@ -34,7 +34,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 CUSTOM_PROCESSOR_INFO ?= Unknown
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.sys.2by2_processor_info=$(subst $() ,_,$(CUSTOM_PROCESSOR_INFO))
+    persist.sys.2by2_processor_info=$(subst $() ,_,$(CUSTOM_PROCESSOR_INFO)) \
+    persist.sys.device_camera_info_rear=$(CUSTOM_CAMERA_REAR_INFO) \
+    persist.sys.device_camera_info_front=$(CUSTOM_CAMERA_FRONT_INFO)
 
 # Internal version
 LINEAGE_VERSION := 2by2-Project-$(PLATFORM_VERSION)-$(shell date -u +%Y%m%d_%H%M%S)-$(LINEAGE_BUILD)$(VANILLA_SUFFIX)
