@@ -62,3 +62,9 @@ PRODUCT_COPY_FILES += \
 
 # Certification
 $(call inherit-product-if-exists, vendor/certification/config.mk)
+
+# Setup wizard animation
+TARGET_SETUPWIZARD_NO_ANIMATION ?= false
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.setupwizard.no_animation=$(TARGET_SETUPWIZARD_NO_ANIMATION)
