@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_VERSION_MAJOR := 2
-PRODUCT_VERSION_MINOR := 5
-CUSTOM_BUILD_VERSION_CODENAME := Bismuth
+PRODUCT_VERSION_MAJOR := 3
+PRODUCT_VERSION_MINOR := 0
+CUSTOM_BUILD_VERSION_CODENAME := Cobalt
 CUSTOM_MAINTAINER ?= Unknown
 
 # Versioning System
